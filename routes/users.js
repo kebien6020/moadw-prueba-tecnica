@@ -6,13 +6,14 @@ const mongoose = require('mongoose')
 module.exports = (router  = new Router()) => {
 
   router.get('/', async (req, res, next) => {
-    const users = await User.find()
+    const users = await User.find({}, '-__v')
     res.json({success: true, users})
   })
 
   router.get('/:id', async (req, res, next) => {
     const pipeline = [
       { $match: {_id: mongoose.Types.ObjectId(req.params.id)} },
+      { $project: {password: false, __v: false} },
     ]
 
     if (req.query.includeSells === 'true') {
@@ -23,6 +24,9 @@ module.exports = (router  = new Router()) => {
           foreignField: 'userId',
           as: 'sells',
         },
+      })
+      pipeline.push({
+        $project: {'sells.__v': false},
       })
     }
 
