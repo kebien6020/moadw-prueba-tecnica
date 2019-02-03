@@ -15,3 +15,5 @@ const server = app.listen(PORT, () => {
 server.on('close', () => {
   mongoose.connection.close()
 })
+
+module.exports = { app, server } // For testing

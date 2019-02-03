@@ -5,7 +5,7 @@ mongoose.connect(config.db.connection, {useNewUrlParser: true})
 
 const types = mongoose.Schema.Types
 
-const User = mongoose.model('User', {
+const User = mongoose.models.User || mongoose.model('User', {
   name: String,
   password: {
     type: String,
@@ -17,7 +17,7 @@ const User = mongoose.model('User', {
     default: 'basic'
   },
 })
-const Sell = mongoose.model('Sell', {
+const Sell = mongoose.models.Sell || mongoose.model('Sell', {
   product: String,
   value: String,
   qty: Number,
