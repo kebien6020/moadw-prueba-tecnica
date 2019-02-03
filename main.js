@@ -8,6 +8,10 @@ const PORT = 8100 || process.env.PORT
 
 app.use(routes())
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`)
+})
+
+server.on('close', () => {
+  mongoose.connection.close()
 })
