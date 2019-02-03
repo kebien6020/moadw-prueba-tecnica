@@ -1,5 +1,6 @@
 const express = require('express')
-const { mongoose, User, Sell } = require('./db')
+const { User, Sell } = require('./db')
+const mongoose = require('mongoose')
 
 const app = express()
 
@@ -15,10 +16,21 @@ app.get('/users', async (req, res, next) => {
 })
 
 app.get('/users/:id', async (req, res, next) => {
-  const user = await User.findById(req.params.id)
-  const sells = await Sell.find({userId: user._id})
-  const userWithSells = Object.assign({}, user._doc, {sells})
-  res.json({success:true, user: userWithSells})
+  const result = await User.aggregate([
+    { $match: {_id: mongoose.Types.ObjectId(req.params.id)} },
+    {
+      $lookup: {
+        from: 'sells',
+        localField: '_id',
+        foreignField: 'userId',
+        as: 'sells',
+      },
+    }
+  ])
+  if (result[0]) {
+    const user = result[0]
+    res.json({success:true, user})
+  }
 })
 
 app.get('/sells', async (req, res, next) => {
