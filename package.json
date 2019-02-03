@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node main.js",
+    "watch": "nodemon main.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
