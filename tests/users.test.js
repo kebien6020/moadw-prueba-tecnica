@@ -1,6 +1,6 @@
 const chai = require('chai')
 const chaiHttp = require('chai-http')
-const app = require('../main')
+const app = require('../app')
 const { deleteAll, addTestUsers, addTestSell, checkResponse, checkUser } = require('./utils')
 const should = chai.should()
 chai.use(chaiHttp)
