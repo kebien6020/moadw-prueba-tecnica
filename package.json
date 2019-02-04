@@ -2,7 +2,7 @@
   "scripts": {
     "start": "node main.js",
     "watch": "nodemon main.js",
-    "test": "cross-env NODE_ENV=test PORT=8200 mocha tests/**.js",
+    "test": "cross-env NODE_ENV=test PORT=8200 mocha tests/**.test.js",
     "tdd": "yarn test -w --recursive"
   },
   "dependencies": {
