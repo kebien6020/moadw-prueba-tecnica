@@ -28,6 +28,22 @@ async function addTestSell(userId) {
   return inserted
 }
 
+function checkResponse(res, statusCode = 200) {
+  res.should.have.status(statusCode)
+  res.should.be.json
+  res.body.should.be.an('object')
+  res.body.success.should.eql(true)
+}
+
+function checkUser(user) {
+  user.should.be.an('object')
+  user.should.have.keys('name', 'role', '_id')
+  user.should.not.have.any.keys('password', '__v')
+
+  user.name.should.be.a('string')
+  user.role.should.be.oneOf(['basic', 'admin'])
+  user._id.should.be.an('string')
+}
 
 describe('User routes', () => {
 
@@ -40,10 +56,7 @@ describe('User routes', () => {
   it('GET / should return an array', async () => {
     const res = await chai.request(app).get('/users')
     
-    res.should.have.status(200)
-    res.should.be.json
-    res.body.should.be.an('object')
-    res.body.success.should.eql(true)
+    checkResponse(res)
     res.body.users.should.be.an('array')
     res.body.users.length.should.eql(0)
   })
@@ -53,21 +66,11 @@ describe('User routes', () => {
 
     const res = await chai.request(app).get('/users')
 
-    res.should.have.status(200)
-    res.should.be.an('object')
-    res.body.success.should.be.true
+    checkResponse(res)
     res.body.users.should.be.an('array')
     const users = res.body.users
     users.should.have.lengthOf(2)
-    users.forEach(user => {
-      user.should.be.an('object')
-      user.should.have.keys('name', 'role', '_id')
-      user.should.not.have.any.keys('password', '__v')
-
-      user.name.should.be.a('string')
-      user.role.should.be.oneOf(['basic', 'admin'])
-      user._id.should.be.an('string')
-    })
+    users.forEach(checkUser)
   })
 
   it('GET /:id should return individual user', async () => {
@@ -76,19 +79,11 @@ describe('User routes', () => {
 
     const res = await chai.request(app).get(`/users/${id}`)
 
-    res.should.have.status(200)
-    res.should.be.an('object')
-    res.body.success.should.be.true
+    checkResponse(res)
     res.body.user.should.be.an('object')
 
     const user = res.body.user
-    user.should.be.an('object')
-    user.should.have.all.keys('name', 'role', '_id')
-    user.should.not.have.any.keys('password', '__v')
-
-    user.name.should.be.a('string')
-    user.role.should.eql('basic')
-    user._id.should.be.an('string')
+    checkUser(user)
   })
 
   it('GET /:id with query param should yield user with sells', async () => {
@@ -98,9 +93,7 @@ describe('User routes', () => {
 
     const res = await chai.request(app).get(`/users/${id}?includeSells=true`)
 
-    res.should.have.status(200)
-    res.should.be.an('object')
-    res.body.success.should.be.true
+    checkResponse(res)
     res.body.user.should.be.an('object')
 
     const user = res.body.user
