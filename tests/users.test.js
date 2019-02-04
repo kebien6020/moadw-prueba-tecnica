@@ -1,13 +1,11 @@
 const chai = require('chai')
 const chaiHttp = require('chai-http')
-const { app, server } = require('../main')
+const app = require('../main')
 const { deleteAll, addTestUsers, addTestSell, checkResponse, checkUser } = require('./utils')
 const should = chai.should()
 chai.use(chaiHttp)
 
 describe('User routes', () => {
-
-  after(done => server.close(done))
 
   beforeEach(async () => {
     await deleteAll()
