@@ -4,17 +4,19 @@
     "watch": "nodemon index.js",
     "test": "cross-env NODE_ENV=test mocha tests/**.test.js --exit",
     "tdd": "yarn test -w --recursive",
-    "precommit": "yarn test"
+    "precommit": "yarn test",
+    "lint": "eslint ."
   },
   "dependencies": {
     "express": "^4.16.4",
-    "git-pre-commit": "^2.1.4",
     "mongoose": "^5.4.9"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
     "cross-env": "^5.2.0",
+    "eslint": "^5.13.0",
+    "git-pre-commit": "^2.1.4",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.9"
   }
