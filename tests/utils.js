@@ -40,3 +40,13 @@ exports.checkUser = function (user) {
   user._id.should.be.an('string')
 }
 
+exports.checkSell = function (sell) {
+  sell.should.be.an('object')
+  sell.should.have.all.keys('product', 'value', 'qty', 'userId', '_id')
+  sell.should.not.have.any.keys('__v')
+  
+  ;['product', 'value', 'userId', '_id'].forEach(key => {
+    sell[key].should.be.an('string')
+  })
+  sell.qty.should.be.a('number')
+}

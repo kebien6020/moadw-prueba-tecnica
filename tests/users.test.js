@@ -1,7 +1,7 @@
 const chai = require('chai')
 const chaiHttp = require('chai-http')
 const app = require('../app')
-const { deleteAll, addTestUsers, addTestSell, checkResponse, checkUser } = require('./utils')
+const { deleteAll, addTestUsers, addTestSell, checkResponse, checkUser, checkSell } = require('./utils')
 const should = chai.should()
 chai.use(chaiHttp)
 
@@ -59,14 +59,7 @@ describe('User routes', () => {
     user.sells.should.be.an('array')
     user.sells.should.have.lengthOf(1)
     const sell = user.sells[0]
-    sell.should.be.an('object')
-    sell.should.have.all.keys('product', 'value', 'qty', 'userId', '_id')
-    sell.should.not.have.any.keys('__v')
-    
-    ;['product', 'value', 'userId', '_id'].forEach(key => {
-      sell[key].should.be.an('string')
-    })
-    sell.qty.should.be.a('number')
+    checkSell(sell)
   })
 })
 
