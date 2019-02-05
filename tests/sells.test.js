@@ -1,9 +1,8 @@
 const chai = require('chai')
 const chaiHttp = require('chai-http')
 const app = require('../app')
-const mongoose = require('mongoose')
 const { deleteAll, addTestUsers, addTestSell, checkResponse, checkSell } = require('./utils')
-const should = chai.should()
+chai.should()
 chai.use(chaiHttp)
 
 describe('Sell routes', () => {

@@ -1,13 +1,15 @@
 const app = require('./app')
+const mongoose = require('mongoose')
+const log = require('debug')('server')
 const PORT = process.env.PORT || 8100
 
 const server = app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`)
+  log(`Listening on port ${PORT}`)
 })
 
 server.on('close', () => {
-  console.log('Shutting down server')
+  log('Shutting down server')
   mongoose.connection.close(() => {
-    console.log('Closed connection to database')
+    log('Closed connection to database')
   })
 })

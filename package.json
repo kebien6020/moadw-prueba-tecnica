@@ -5,9 +5,11 @@
     "test": "cross-env NODE_ENV=test mocha tests/**.test.js --exit",
     "tdd": "yarn test -w --recursive",
     "precommit": "yarn test",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "eslint": "eslint"
   },
   "dependencies": {
+    "debug": "^4.1.1",
     "express": "^4.16.4",
     "mongoose": "^5.4.9"
   },

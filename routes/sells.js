@@ -4,7 +4,7 @@ const { Sell } = require('../db')
 
 module.exports = (router  = new Router()) => {
 
-  router.get('/', async (req, res, next) => {
+  router.get('/', async (req, res, _next) => {
     const sells = await Sell.find({}, '-__v')
     res.json({success: true, sells})
   })
