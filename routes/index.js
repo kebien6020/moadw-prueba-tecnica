@@ -6,7 +6,7 @@ const sells = require('./sells')
 
 module.exports = (router = new Router()) => {
 
-  router.get('/', (req, res, next) => {
+  router.get('/', (req, res, _next) => {
     res.json({success: true})
   })
 

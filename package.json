@@ -4,9 +4,8 @@
     "watch": "nodemon index.js",
     "test": "cross-env NODE_ENV=test mocha tests/**.test.js --exit",
     "tdd": "yarn test -w --recursive",
-    "precommit": "yarn test",
-    "lint": "eslint .",
-    "eslint": "eslint"
+    "precommit": "yarn lint && yarn test",
+    "lint": "eslint ."
   },
   "dependencies": {
     "debug": "^4.1.1",
