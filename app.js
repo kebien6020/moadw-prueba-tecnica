@@ -4,7 +4,7 @@ const errorMiddleware = require('./errors/middleware')
 
 const app = express()
 
-app.use(routes())
+app.use(routes)
 app.use(errorMiddleware)
 
 module.exports = app // For testing
