@@ -4,6 +4,7 @@ const app = require('../app')
 const { deleteAll, checkResponse, checkUser, checkHat } = require('./utils')
 const { seedUsers } = require('../db/seeders')
 const { User } = require('../db')
+const mongoose = require('mongoose')
 chai.should()
 chai.use(chaiHttp)
 
@@ -93,7 +94,11 @@ describe('User routes', () => {
   })
 
   it('GET /users/paginated should have 1 total pages if there is even 1 user', async () => {
-    await User.create({email: 'test@example.com', hats: []})
+    await User.create({
+      _id: new mongoose.Types.ObjectId().toString(),
+      email: 'test@example.com',
+      hats: [],
+    })
     const res = await chai.request(app).get('/users/paginated')
 
     res.body.should.include.keys('totalPages')
@@ -152,6 +157,15 @@ describe('User routes', () => {
 
     lastSpentPage1.should.be.gte(firstSpentPage2)
 
+  })
+
+  it('GET /users/paginated first user should not have amountSpent of 0', async () => {
+    await seedUsers()
+
+    const res = await chai.request(app).get('/users/paginated')
+
+    checkResponse(res)
+    res.body.users[0].amountSpent.should.be.above(0)
   })
 
 })
