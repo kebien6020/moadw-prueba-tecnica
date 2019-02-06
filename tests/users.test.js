@@ -14,158 +14,166 @@ describe('User routes', () => {
     await deleteAll()
   })
 
-  it('GET /users should return an empty array if there is no users', async () => {
-    const res = await chai.request(app).get('/users')
+  describe('GET /users', () => {
 
-    checkResponse(res)
-    res.body.users.should.be.an('array')
-    res.body.users.length.should.eql(0)
+    it('should return an empty array if there is no users', async () => {
+      const res = await chai.request(app).get('/users')
 
-  })
+      checkResponse(res)
+      res.body.users.should.be.an('array')
+      res.body.users.length.should.eql(0)
 
-  it('GET /users should return an array with all users', async () => {
-    await seedUsers()
-
-    const res = await chai.request(app).get('/users')
-
-    checkResponse(res)
-    res.body.users.should.be.an('array')
-    res.body.users.should.not.have.lengthOf(0)
-
-    res.body.users.forEach(user => {
-      checkUser(user)
-      user.hats.forEach(checkHat)
-    })
-  })
-
-  it('GET /users/paginated should return the first 50 users, sorted by money spent', async() => {
-    await seedUsers()
-
-    const res = await chai.request(app).get('/users/paginated')
-
-    checkResponse(res)
-    res.body.users.should.be.an('array')
-    res.body.users.should.have.lengthOf(50)
-
-    res.body.users.forEach(user => {
-      user.should.have.keys('email', 'amountSpent', '_id')
-
-      user.email.should.be.a('string')
-      user.amountSpent.should.be.a('number')
-      user._id.should.be.a('string')
     })
 
-    // Check that the amount spent is in descending order
-    // NOTE: Loop intentionally starts from 1 instead of 0
-    const users = res.body.users
-    for (let i = 1; i < users.length; ++i) {
-      const prevUser = users[i - 1]
-      const thisUser = users[i]
+    it('should return an array with all users', async () => {
+      await seedUsers()
 
-      prevUser.amountSpent.should.be.gte(thisUser.amountSpent, 'Users are not sorted by amountSpent')
-    }
-  })
+      const res = await chai.request(app).get('/users')
 
-  it('GET /users/paginated?page=1 should return the same as without the parameter', async () => {
-    await seedUsers()
+      checkResponse(res)
+      res.body.users.should.be.an('array')
+      res.body.users.should.not.have.lengthOf(0)
 
-    const resWithoutParam = await chai.request(app).get('/users/paginated')
-    const resWithParam = await chai.request(app).get('/users/paginated?page=1')
-
-    resWithoutParam.body.should.deep.eql(resWithParam.body)
-  })
-
-  it('GET /users/paginated should contain the total number of pages', async () => {
-    await seedUsers()
-
-    const res = await chai.request(app).get('/users/paginated')
-
-    res.body.should.include.keys('totalPages')
-    res.body.totalPages.should.eql(3)
-
-  })
-
-  it('GET /users/paginated should have 0 total pages if there are no users', async () => {
-    const res = await chai.request(app).get('/users/paginated')
-
-    res.body.should.include.keys('totalPages')
-    res.body.totalPages.should.eql(0)
-
-  })
-
-  it('GET /users/paginated should have 1 total pages if there is even 1 user', async () => {
-    await User.create({
-      _id: new mongoose.Types.ObjectId().toString(),
-      email: 'test@example.com',
-      hats: [],
+      res.body.users.forEach(user => {
+        checkUser(user)
+        user.hats.forEach(checkHat)
+      })
     })
-    const res = await chai.request(app).get('/users/paginated')
-
-    res.body.should.include.keys('totalPages')
-    res.body.totalPages.should.eql(1)
 
   })
 
-  it('GET /users/paginated?page=2 should return different users as ?page=1', async () => {
-    await seedUsers()
+  describe('GET /users/paginated', () => {
 
-    const resPage1 = await chai.request(app).get('/users/paginated?page=1')
-    const resPage2 = await chai.request(app).get('/users/paginated?page=2')
+    it('should return the first 50 users, sorted by money spent', async() => {
+      await seedUsers()
 
-    const idsPage1 = resPage1.body.users.map(user => user._id)
-    const idsPage2 = resPage2.body.users.map(user => user._id)
+      const res = await chai.request(app).get('/users/paginated')
 
-    idsPage1.should.not.have.members(idsPage2)
-  })
+      checkResponse(res)
+      res.body.users.should.be.an('array')
+      res.body.users.should.have.lengthOf(50)
 
-  it('GET /users/paginated?page=2 should return 50 users', async () => {
-    await seedUsers()
+      res.body.users.forEach(user => {
+        user.should.have.keys('email', 'amountSpent', '_id')
 
-    const res = await chai.request(app).get('/users/paginated?page=2')
+        user.email.should.be.a('string')
+        user.amountSpent.should.be.a('number')
+        user._id.should.be.a('string')
+      })
 
-    checkResponse(res)
-    res.body.users.should.have.lengthOf(50)
-  })
+      // Check that the amount spent is in descending order
+      // NOTE: Loop intentionally starts from 1 instead of 0
+      const users = res.body.users
+      for (let i = 1; i < users.length; ++i) {
+        const prevUser = users[i - 1]
+        const thisUser = users[i]
 
-  it('GET /users/paginated?page=3 should return 20 users', async () => {
-    await seedUsers()
+        prevUser.amountSpent.should.be.gte(thisUser.amountSpent, 'Users are not sorted by amountSpent')
+      }
+    })
 
-    const res = await chai.request(app).get('/users/paginated?page=3')
+    it('?page=1 should return the same as without the parameter', async () => {
+      await seedUsers()
 
-    checkResponse(res)
-    res.body.users.should.have.lengthOf(20)
-  })
+      const resWithoutParam = await chai.request(app).get('/users/paginated')
+      const resWithParam = await chai.request(app).get('/users/paginated?page=1')
 
-  it('GET /users/paginated?page=4 should return an empty array', async () => {
-    await seedUsers()
+      resWithoutParam.body.should.deep.eql(resWithParam.body)
+    })
 
-    const res = await chai.request(app).get('/users/paginated?page=4')
+    it('should contain the total number of pages', async () => {
+      await seedUsers()
 
-    checkResponse(res)
-    res.body.users.should.have.lengthOf(0)
-  })
+      const res = await chai.request(app).get('/users/paginated')
 
-  it('GET /users/paginated?page=2 first user should have spent less than last user of page 1', async () => {
-    await seedUsers()
+      res.body.should.include.keys('totalPages')
+      res.body.totalPages.should.eql(3)
 
-    const resPage1 = await chai.request(app).get('/users/paginated?page=1')
-    const resPage2 = await chai.request(app).get('/users/paginated?page=2')
+    })
 
-    const users1 = resPage1.body.users
-    const lastSpentPage1 = users1[users1.length - 1].amountSpent
-    const firstSpentPage2 = resPage2.body.users[0].amountSpent
+    it('should have 0 total pages if there are no users', async () => {
+      const res = await chai.request(app).get('/users/paginated')
 
-    lastSpentPage1.should.be.gte(firstSpentPage2)
+      res.body.should.include.keys('totalPages')
+      res.body.totalPages.should.eql(0)
 
-  })
+    })
 
-  it('GET /users/paginated first user should not have amountSpent of 0', async () => {
-    await seedUsers()
+    it('should have 1 total pages if there is even 1 user', async () => {
+      await User.create({
+        _id: new mongoose.Types.ObjectId().toString(),
+        email: 'test@example.com',
+        hats: [],
+      })
+      const res = await chai.request(app).get('/users/paginated')
 
-    const res = await chai.request(app).get('/users/paginated')
+      res.body.should.include.keys('totalPages')
+      res.body.totalPages.should.eql(1)
 
-    checkResponse(res)
-    res.body.users[0].amountSpent.should.be.above(0)
+    })
+
+    it('?page=2 should return different users as ?page=1', async () => {
+      await seedUsers()
+
+      const resPage1 = await chai.request(app).get('/users/paginated?page=1')
+      const resPage2 = await chai.request(app).get('/users/paginated?page=2')
+
+      const idsPage1 = resPage1.body.users.map(user => user._id)
+      const idsPage2 = resPage2.body.users.map(user => user._id)
+
+      idsPage1.should.not.have.members(idsPage2)
+    })
+
+    it('?page=2 should return 50 users', async () => {
+      await seedUsers()
+
+      const res = await chai.request(app).get('/users/paginated?page=2')
+
+      checkResponse(res)
+      res.body.users.should.have.lengthOf(50)
+    })
+
+    it('?page=3 should return 20 users', async () => {
+      await seedUsers()
+
+      const res = await chai.request(app).get('/users/paginated?page=3')
+
+      checkResponse(res)
+      res.body.users.should.have.lengthOf(20)
+    })
+
+    it('?page=4 should return an empty array', async () => {
+      await seedUsers()
+
+      const res = await chai.request(app).get('/users/paginated?page=4')
+
+      checkResponse(res)
+      res.body.users.should.have.lengthOf(0)
+    })
+
+    it('?page=2 first user should have spent less than last user of page 1', async () => {
+      await seedUsers()
+
+      const resPage1 = await chai.request(app).get('/users/paginated?page=1')
+      const resPage2 = await chai.request(app).get('/users/paginated?page=2')
+
+      const users1 = resPage1.body.users
+      const lastSpentPage1 = users1[users1.length - 1].amountSpent
+      const firstSpentPage2 = resPage2.body.users[0].amountSpent
+
+      lastSpentPage1.should.be.gte(firstSpentPage2)
+
+    })
+
+    it(' first user should not have amountSpent of 0', async () => {
+      await seedUsers()
+
+      const res = await chai.request(app).get('/users/paginated')
+
+      checkResponse(res)
+      res.body.users[0].amountSpent.should.be.above(0)
+    })
+
   })
 
 })
