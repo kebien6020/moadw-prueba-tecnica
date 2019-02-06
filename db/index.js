@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 const config = require('./config')()
+const makeLogger = require('debug')
 
+makeLogger('db:connect')(`Connecting to mongodb at ${config.db.connection}`)
 mongoose.connect(config.db.connection, {useNewUrlParser: true})
 
 const types = mongoose.Schema.Types
