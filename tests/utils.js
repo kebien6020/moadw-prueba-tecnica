@@ -21,7 +21,7 @@ exports.checkResponse = function (res, statusCode = 200, success = true) {
 
 exports.checkUser = function (user) {
   user.should.be.an('object')
-  user.should.have.keys('email', 'hats', '_id')
+  user.should.have.keys('email', 'hats', 'recommendedHats', '_id')
   user.should.not.have.any.keys('__v')
 
   user.email.should.be.a('string')
