@@ -7,7 +7,9 @@
     "precommit": "yarn lint && yarn test",
     "lint": "eslint .",
     "prod": "cross-env NODE_ENV=production DEBUG=server:* yarn start",
-    "prod-watch": "cross-env NODE_ENV=production DEBUG=server:* yarn watch"
+    "prod-watch": "cross-env NODE_ENV=production DEBUG=server:* yarn watch",
+    "seed": "node scripts/seed.js",
+    "nuke-db": "cross-env NODE_ENV=development node scripts/nuke-db"
   },
   "dependencies": {
     "debug": "^4.1.1",
@@ -19,8 +21,10 @@
     "chai-http": "^4.2.1",
     "cross-env": "^5.2.0",
     "eslint": "^5.13.0",
+    "faker": "^4.1.0",
     "git-pre-commit": "^2.1.4",
     "mocha": "^5.2.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "random-number": "^0.0.9"
   }
 }
