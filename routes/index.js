@@ -1,18 +1,16 @@
 const express = require('express')
 const { Router } = express
-
 const users = require('./users')
 
-module.exports = (router = new Router()) => {
+const router = new Router()
 
-  // By calling this route you can verify connection with the
-  // server from your app
-  router.get('/', (req, res, _next) => {
-    res.json({success: true})
-  })
+// By calling this route you can verify connection with the
+// server from your app
+router.get('/', (req, res, _next) => {
+  res.json({success: true})
+})
 
-  router.use('/users', users())
+router.get('/users/', users.listAll)
+router.get('/users/paginated', users.paginated)
 
-  return router
-
-}
+module.exports = router
