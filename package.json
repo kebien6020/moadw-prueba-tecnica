@@ -5,7 +5,9 @@
     "test": "cross-env NODE_ENV=test mocha tests/**.test.js --exit",
     "tdd": "yarn test -w --recursive",
     "precommit": "yarn lint && yarn test",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prod": "cross-env NODE_ENV=production DEBUG=server:* yarn start",
+    "prod-watch": "cross-env NODE_ENV=production DEBUG=server:* yarn watch"
   },
   "dependencies": {
     "debug": "^4.1.1",
