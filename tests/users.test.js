@@ -165,13 +165,61 @@ describe('User routes', () => {
 
     })
 
-    it(' first user should not have amountSpent of 0', async () => {
+    it('first user should not have amountSpent of 0', async () => {
       await seedUsers()
 
       const res = await chai.request(app).get('/users/paginated')
 
       checkResponse(res)
       res.body.users[0].amountSpent.should.be.above(0)
+    })
+
+    it('?page=hello should return an invalid_parameter error', async () => {
+      const res = await chai.request(app).get('/users/paginated?page=hello')
+
+      checkResponse(res, 400, false) // 400 bad request
+      res.body.error.should.be.an('object')
+
+      const error = res.body.error
+      error.should.include.keys('code', 'message')
+      error.code.should.eql('invalid_parameter')
+      error.message.should.eql('page should be a positive integer')
+    })
+
+    it('?page=1.5 should return an invalid_parameter error', async () => {
+      const res = await chai.request(app).get('/users/paginated?page=1.5')
+
+      checkResponse(res, 400, false) // 400 bad request
+      res.body.error.should.be.an('object')
+
+      const error = res.body.error
+      error.should.include.keys('code', 'message')
+      error.code.should.eql('invalid_parameter')
+      error.message.should.eql('page should be a positive integer')
+    })
+
+    it('?page=0 should return an invalid_parameter error', async () => {
+      const res = await chai.request(app).get('/users/paginated?page=0')
+
+      checkResponse(res, 400, false) // 400 bad request
+      res.body.error.should.be.an('object')
+
+      const error = res.body.error
+      error.should.include.keys('code', 'message')
+      error.code.should.eql('invalid_parameter')
+      error.message.should.eql('page should be greater than 0')
+    })
+
+    it('?page=-1 should return an invalid_parameter error', async () => {
+      const res = await chai.request(app).get('/users/paginated?page=-1')
+
+      checkResponse(res, 400, false) // 400 bad request
+      res.body.error.should.be.an('object')
+
+      const error = res.body.error
+      error.should.include.keys('code', 'message')
+      error.code.should.eql('invalid_parameter')
+      error.message.should.eql('page should be greater than 0')
     })
 
   })

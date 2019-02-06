@@ -1,6 +1,7 @@
 const express = require('express')
 const { Router } = express
 const { User } = require('../db')
+const { InvalidParameterError } = require('../errors/errorClasses')
 
 // We accept the router as a parameter in case we wanted to mock it
 // This is dependency injection
@@ -24,9 +25,20 @@ module.exports = (router = new Router()) => {
       // that as the page number, otherwise ignore it
       const pageRaw = req.query.page
       const isNumeric = str => !isNaN(Number(str))
-      if (isNumeric(pageRaw)) {
-        // Avoid negative numbers and decimals in the page
-        page = Math.abs(Math.floor(Number(pageRaw)))
+
+
+      // Avoid strings, negative numbers and decimals in the page
+      if (pageRaw !== undefined) {
+        const notNumeric = !isNumeric(pageRaw)
+        const notInteger = Math.floor(Number(pageRaw)) !== Number(pageRaw)
+        const notPositive = Number(pageRaw) <= 0
+        if (notNumeric || notInteger) {
+          throw new InvalidParameterError('page should be a positive integer')
+        } else if (notPositive) {
+          throw new InvalidParameterError('page should be greater than 0')
+        } else {
+          page = Number(pageRaw)
+        }
       }
 
       // We could request all the users from the database and then

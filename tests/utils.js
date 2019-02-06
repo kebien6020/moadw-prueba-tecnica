@@ -12,11 +12,11 @@ exports.addTestUsers = async function () {
   return inserted
 }
 
-exports.checkResponse = function (res, statusCode = 200) {
+exports.checkResponse = function (res, statusCode = 200, success = true) {
   res.should.have.status(statusCode)
   res.should.be.json
   res.body.should.be.an('object')
-  res.body.success.should.eql(true)
+  res.body.success.should.eql(success)
 }
 
 exports.checkUser = function (user) {
