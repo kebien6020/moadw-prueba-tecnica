@@ -222,6 +222,100 @@ describe('User routes', () => {
       error.message.should.eql('page should be greater than 0')
     })
 
+    it('?minSpent=10 should return only users with amountSpent >= 10', async () => {
+      await seedUsers()
+
+      const initialRes = await chai.request(app).get('/users/paginated?minSpent=10')
+      const lastPage = initialRes.body.totalPages
+
+      const url = `/users/paginated?minSpent=10&page=${lastPage}`
+      const res = await chai.request(app).get(url)
+
+      checkResponse(res)
+      res.body.users.should.be.an('array')
+
+      const users = res.body.users
+      users.should.not.have.lengthOf(0)
+      users.forEach(user => {
+        user.amountSpent.should.be.at.least(10)
+      })
+    })
+
+    it('?maxSpent=500 should return only users with amountSpent <= 500', async () => {
+      await seedUsers()
+
+      const url = '/users/paginated?maxSpent=500'
+      const res = await chai.request(app).get(url)
+
+      checkResponse(res)
+      res.body.users.should.be.an('array')
+
+      const users = res.body.users
+      users.should.not.have.lengthOf(0)
+      users.forEach(user => {
+        user.amountSpent.should.be.at.most(500)
+      })
+    })
+
+    it('minSpent and maxSpent should be able to be combined', async () => {
+      await seedUsers()
+
+      const baseUrl = '/users/paginated?minSpent=10&maxSpent=500'
+      const initialRes = await chai.request(app).get(baseUrl)
+      checkResponse(initialRes)
+
+      let returnedUsers = initialRes.body.users
+
+      const totalPages = initialRes.body.totalPages
+      for (let page = 2; page <= totalPages; ++page) {
+        const res = await chai.request(app).get(`${baseUrl}&page=${page}`)
+        checkResponse(res)
+        returnedUsers = returnedUsers.concat(res.body.users)
+      }
+
+      returnedUsers.should.not.have.lengthOf(0)
+      returnedUsers.forEach(user => {
+        user.amountSpent.should.be.at.least(10)
+        user.amountSpent.should.be.at.most(500)
+      })
+    })
+
+    it('negative minSpent and maxSpent should not cause troubles', async () => {
+      await seedUsers()
+
+      const urlMin = '/users/paginated?minSpent=-10'
+      const urlMax = '/users/paginated?maxSpent=-10'
+      const resMin = await chai.request(app).get(urlMin)
+      const resMax = await chai.request(app).get(urlMax)
+
+      checkResponse(resMin)
+      checkResponse(resMax)
+
+      resMin.body.users.should.be.an('array')
+      resMax.body.users.should.be.an('array')
+
+      resMin.body.users.should.have.lengthOf(50)
+      resMax.body.users.should.have.lengthOf(0)
+    })
+
+    it('string minSpent and maxSpent should error with code invalid_parameter', async () => {
+      await seedUsers()
+
+      const urlMin = '/users/paginated?minSpent=hello'
+      const urlMax = '/users/paginated?maxSpent=world'
+      const resMin = await chai.request(app).get(urlMin)
+      const resMax = await chai.request(app).get(urlMax)
+
+      checkResponse(resMin, 400, false)
+      checkResponse(resMax, 400, false)
+
+      resMin.body.error.code.should.eql('invalid_parameter')
+      resMax.body.error.code.should.eql('invalid_parameter')
+
+      resMin.body.error.message.should.eql('minSpent should be a number')
+      resMax.body.error.message.should.eql('maxSpent should be a number')
+    })
+
   })
 
 })
