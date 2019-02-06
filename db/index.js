@@ -5,16 +5,25 @@ const makeLogger = require('debug')
 makeLogger('db:connect')(`Connecting to mongodb at ${config.db.connection}`)
 mongoose.connect(config.db.connection, {useNewUrlParser: true})
 
-const Hat = mongoose.Schema({
+const HatSchema = mongoose.Schema({
+  _id: String,
   name: String,
   price: Number,
   material: String,
 })
 
-const User = mongoose.models.User || mongoose.model('User', {
+const UserSchema = mongoose.Schema({
+  _id: String,
   email: String,
-  hats: [Hat],
+  hats: [{
+    type: String,
+    ref: 'Hat',
+  }],
 })
+
+const Hat = mongoose.models.Hat || mongoose.model('Hat', HatSchema)
+
+const User = mongoose.models.User || mongoose.model('User', UserSchema)
 
 exports.User = User
 exports.Hat = Hat

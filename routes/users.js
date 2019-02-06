@@ -1,39 +1,90 @@
 const express = require('express')
 const { Router } = express
 const { User } = require('../db')
-const mongoose = require('mongoose')
+const { InvalidParameterError } = require('../errors/errorClasses')
 
-module.exports = (router  = new Router()) => {
+// We accept the router as a parameter in case we wanted to mock it
+// This is dependency injection
+module.exports = (router = new Router()) => {
 
   router.get('/', async (req, res, _next) => {
-    const users = await User.find({}, '-__v')
+    const users = await User.find({}, '-__v').populate('hats', '-__v')
     res.json({success: true, users})
   })
 
-  router.get('/:id', async (req, res, _next) => {
-    const pipeline = [
-      { $match: {_id: mongoose.Types.ObjectId(req.params.id)} },
-      { $project: {password: false, __v: false} },
-    ]
+  router.get('/paginated', async (req, res, next) => {
+    try {
+      // For this endpoint users are paginated every 50 entries, the number
+      // is fixed in the spec, but it can be changed here if it's needed
+      const pageSize = 50
 
-    if (req.query.includeSells === 'true') {
-      pipeline.push({
-        $lookup: {
-          from: 'sells',
-          localField: '_id',
-          foreignField: 'userId',
-          as: 'sells',
+      // By default assume page as 1, even if not provided in the URL
+      let page = 1
+
+      // Validation: If everything is fine with the query parameter, use
+      // that as the page number, otherwise ignore it
+      const pageRaw = req.query.page
+      const isNumeric = str => !isNaN(Number(str))
+
+
+      // Avoid strings, negative numbers and decimals in the page
+      if (pageRaw !== undefined) {
+        const notNumeric = !isNumeric(pageRaw)
+        const notInteger = Math.floor(Number(pageRaw)) !== Number(pageRaw)
+        const notPositive = Number(pageRaw) <= 0
+        if (notNumeric || notInteger) {
+          throw new InvalidParameterError('page should be a positive integer')
+        } else if (notPositive) {
+          throw new InvalidParameterError('page should be greater than 0')
+        } else {
+          page = Number(pageRaw)
+        }
+      }
+
+      // We could request all the users from the database and then
+      // do the filtering, sorting and pagination in js, but it is
+      // more efficient to do a query that does all of that.
+      // MongoDB aggregates are the perfect tool for such complicated querys.
+      const users = await User.aggregate([
+        {
+          $lookup: {
+            from: 'hats',
+            localField: 'hats',
+            foreignField: '_id',
+            as: 'hat_array'
+          }
         },
-      })
-      pipeline.push({
-        $project: {'sells.__v': false},
-      })
-    }
+        {
+          // Add amountSpent field which contains the sum of the price of
+          // all hats for this user
+          $addFields: {
+            amountSpent: {
+              // equivalent to
+              // currentUser.hats.reduce((acc, hat) => acc + hat.price, 0)
+              $reduce: {
+                input: '$hat_array',
+                initialValue: 0,
+                in: {$add : ['$$value', '$$this.price']}
+              }
+            }
+          }
+        },
+        // Include only _id, email and amountSpent
+        { $project: { _id: 1, email: 1, amountSpent: 1 } },
 
-    const results = await User.aggregate(pipeline)
-    if (results[0]) {
-      const user = results[0]
-      res.json({success:true, user})
+        // Sort and pagination
+        { $sort: { amountSpent: -1 } },
+        { $skip: (page - 1) * pageSize },
+        { $limit: pageSize, }
+      ])
+
+      // Total user count can't be retrieved in the previous query
+      const userCount = await User.countDocuments()
+      const totalPages = Math.ceil(userCount / pageSize)
+
+      res.json({success: true, users, totalPages})
+    } catch (e) {
+      next(e)
     }
   })
 
