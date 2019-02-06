@@ -1,11 +1,47 @@
-const { User } = require('../db')
+const { User, Hat, Recommendation } = require('../db')
 const { InvalidParameterError } = require('../errors/errorClasses')
+const debug = require('debug')
+const mongoose = require('mongoose')
 
 // Lists all users with their hats
 // Use for debugging purposes
 async function listAll(req, res, _next) {
-  const users = await User.find({}, '-__v').populate('hats', '-__v')
+  const users = await User.find({}, '-__v').populate('hats', '-__v').populate('recommendedHats')
   res.json({success: true, users})
+}
+
+function isNumeric(str) {
+  return !isNaN(Number(str))
+}
+
+
+function checkNatural(str, paramName) {
+  // Avoid strings, negative numbers and decimals
+  if (str !== undefined) {
+    const notNumeric = !isNumeric(str)
+    const notInteger = Math.floor(Number(str)) !== Number(str)
+    const notPositive = Number(str) <= 0
+    if (notNumeric || notInteger) {
+      throw new InvalidParameterError(`${paramName} should be a positive integer`)
+    } else if (notPositive) {
+      throw new InvalidParameterError(`${paramName} should be greater than 0`)
+    } else {
+      return true
+    }
+  }
+  return false
+}
+
+function checkNumber(str, paramName) {
+  if (str !== undefined) {
+    const notNumeric = !isNumeric(str)
+    if (notNumeric) {
+      throw new InvalidParameterError(`${paramName} should be a number`)
+    } else {
+      return true
+    }
+  }
+  return false
 }
 
 // List users with their amount spent on hats, sorted by this amount in
@@ -26,42 +62,13 @@ async function paginated(req, res, next) {
     const pageRaw = req.query.page
     const minSpentRaw = req.query.minSpent
     const maxSpentRaw = req.query.maxSpent
-    const isNumeric = str => !isNaN(Number(str))
 
 
-    // Avoid strings, negative numbers and decimals in the page
-    if (pageRaw !== undefined) {
-      const notNumeric = !isNumeric(pageRaw)
-      const notInteger = Math.floor(Number(pageRaw)) !== Number(pageRaw)
-      const notPositive = Number(pageRaw) <= 0
-      if (notNumeric || notInteger) {
-        throw new InvalidParameterError('page should be a positive integer')
-      } else if (notPositive) {
-        throw new InvalidParameterError('page should be greater than 0')
-      } else {
-        page = Number(pageRaw)
-      }
-    }
-
+    if (checkNatural(pageRaw, 'page')) page = Number(pageRaw)
     // For minSpent and maxSpent decimals and negative values can be allowed.
     // Negative values do not make sense but they don't cause trouble
-    if (minSpentRaw !== undefined) {
-      const notNumeric = !isNumeric(minSpentRaw)
-      if (notNumeric) {
-        throw new InvalidParameterError('minSpent should be a number')
-      } else {
-        minSpent = Number(minSpentRaw)
-      }
-    }
-    if (maxSpentRaw !== undefined) {
-      const notNumeric = !isNumeric(maxSpentRaw)
-      if (notNumeric) {
-        throw new InvalidParameterError('maxSpent should be a number')
-      } else {
-        maxSpent = Number(maxSpentRaw)
-      }
-    }
-
+    if (checkNumber(minSpentRaw, 'minSpent')) minSpent = Number(minSpentRaw)
+    if (checkNumber(maxSpentRaw, 'maxSpent')) maxSpent = Number(maxSpentRaw)
 
     // We could request all the users from the database and then
     // do the filtering, sorting and pagination in js, but it is
@@ -122,7 +129,128 @@ async function paginated(req, res, next) {
   }
 }
 
+async function recommendToUser(user, allHats, algoConfig) {
+  const avgOwnedPrice =
+    user.hats.length === 0 ? null :
+      user.hats.reduce((acc, hat) => acc + hat.price, 0) / user.hats.length
+
+  // Score every single hat for this user, based on his current hats
+  const userHats = user.hats.map(hat => hat._id)
+  let scoredHats = allHats
+    .map(hat => hat.toObject()) // clone and convert to plain object
+    // do not take into account the hats the user already has
+    .filter(hat => userHats.indexOf(hat._id) === -1)
+  for (const hat of scoredHats) {
+    const materialScore = user.hats.reduce((acc, userHat) =>
+      hat.material === userHat.material ?
+        acc + algoConfig.sameMaterialBonus :
+        acc
+    , 0)
+    // Calculate price deviation from user average
+    const priceDeviation =
+      avgOwnedPrice === null ? 0 :
+        Math.abs(avgOwnedPrice - hat.price) / avgOwnedPrice
+    const priceScore = priceDeviation * -algoConfig.priceDeviationPenality
+
+    hat.score = algoConfig.baseScore + materialScore + priceScore
+  }
+  // sort hats by score in descending order
+  scoredHats.sort((hatA, hatB) => hatB.price - hatA.price)
+  // pick top 3
+  scoredHats = scoredHats.slice(0, 3)
+  // add _id to save in db
+  scoredHats = scoredHats.map(hat => Object.assign(hat, {
+    _id: new mongoose.Types.ObjectId().toString()
+  }))
+
+  const userObj = user.toObject()
+  userObj.recommendedHats = scoredHats
+
+  // save recommendations to db
+  await Recommendation.insertMany(scoredHats)
+  // save user to db
+  await User.updateOne({_id: user._id}, userObj)
+
+  scoredHats = null
+}
+
+async function refreshRecommendations() {
+  const log = debug('app:commands')
+  log('Recalculating all recommendations')
+
+  // Configuration varaiables for the algorithm
+  // 30 initial points
+  const baseScore = 30
+  // 10 points for every hat of the same material that the user owns
+  const sameMaterialBonus = 10
+  // -10 point for every 100% of deviation
+  const priceDeviationPenality = 10
+
+
+  // Wipe all previous recommendations
+  await User.updateMany({}, { $set: {recommendedHats: []}})
+  await Recommendation.deleteMany({})
+
+  const allUsers = await User.find({}).populate('hats')
+  const allHats = await Hat.find({})
+
+  for (const user of allUsers) {
+    // Run recommendation algorithm for every user
+    // The querys to the db run in parallel
+    await recommendToUser(user, allHats, {
+      baseScore,
+      sameMaterialBonus,
+      priceDeviationPenality,
+    })
+  }
+
+  log('Finished saving recommendations to the db')
+}
+
+async function refreshRecommendationsEndpoint(_req, res, next) {
+  try {
+    await refreshRecommendations()
+
+    res.json({success: true})
+  } catch (e) {
+    next(e)
+  }
+}
+
+async function listRecommendations(req, res, next) {
+  try {
+    // For this endpoint users are paginated every 50 entries, the number
+    // is fixed in the spec, but it can be changed here if it's needed
+    const pageSize = 50
+
+    // By default assume page as 1, even if not provided in the URL
+    let page = 1
+
+    // Validation: If everything is fine with the query parameter, use
+    // that as the page number, otherwise ignore it
+    const pageRaw = req.query.page
+    if (checkNatural(pageRaw)) page = Number(pageRaw)
+
+    const users = await User
+      .find({}, '-__v')
+      .skip((page - 1) * pageSize)
+      .limit(pageSize)
+      .populate('recommendedHats', '-__v')
+
+    // Total user count can't be retrieved in the previous query
+    const userCount = await User.countDocuments({})
+    const totalPages = Math.ceil(userCount / pageSize)
+
+    res.json({success: true, users, totalPages})
+  } catch (e) {
+    next(e)
+  }
+}
+
 module.exports = {
   listAll,
   paginated,
+  refreshRecommendations,
+  refreshRecommendationsEndpoint,
+  listRecommendations,
 }

@@ -12,5 +12,7 @@ router.get('/', (req, res, _next) => {
 
 router.get('/users/', users.listAll)
 router.get('/users/paginated', users.paginated)
+router.get('/users/refreshRecommendations', users.refreshRecommendationsEndpoint)
+router.get('/users/recommendations', users.listRecommendations)
 
 module.exports = router
