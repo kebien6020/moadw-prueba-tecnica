@@ -1,7 +1,9 @@
-const { User } = require('../db')
+const { User, Hat, Recommendation } = require('../db')
 
 exports.deleteAll = async function () {
   await User.deleteMany({})
+  await Hat.deleteMany({})
+  await Recommendation.deleteMany({})
 }
 
 exports.addTestUsers = async function () {
