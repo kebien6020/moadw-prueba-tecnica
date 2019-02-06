@@ -11,6 +11,13 @@ module.exports = (router  = new Router()) => {
 
   router.get('/paginated', async (req, res, next) => {
     try {
+      const pageSize = 50
+      const pageRaw = req.query.page
+      let page = 1
+      const isNumeric = str => !isNaN(Number(str))
+      if (isNumeric(pageRaw)) {
+        page = Number(pageRaw)
+      }
       const users = await User.aggregate([
         {
           // Add amountSpent field which contains the sum of the price of
@@ -30,9 +37,12 @@ module.exports = (router  = new Router()) => {
         // Include only _id, email and amountSpent
         { $project: { _id: 1, email: 1, amountSpent: 1 } },
         { $sort: { amountSpent: -1 } },
-        { $limit: 50, }
+        { $skip: (page - 1) * pageSize },
+        { $limit: pageSize, }
       ])
-      res.json({success: true, users})
+      const userCount = await User.countDocuments()
+      const totalPages = Math.ceil(userCount / pageSize)
+      res.json({success: true, users, totalPages})
     } catch (e) {
       next(e)
     }
