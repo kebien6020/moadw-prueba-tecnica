@@ -1,7 +1,6 @@
 const express = require('express')
 const { Router } = express
 const { User } = require('../db')
-const mongoose = require('mongoose')
 
 module.exports = (router  = new Router()) => {
 
@@ -10,30 +9,32 @@ module.exports = (router  = new Router()) => {
     res.json({success: true, users})
   })
 
-  router.get('/:id', async (req, res, _next) => {
-    const pipeline = [
-      { $match: {_id: mongoose.Types.ObjectId(req.params.id)} },
-      { $project: {password: false, __v: false} },
-    ]
-
-    if (req.query.includeSells === 'true') {
-      pipeline.push({
-        $lookup: {
-          from: 'sells',
-          localField: '_id',
-          foreignField: 'userId',
-          as: 'sells',
+  router.get('/paginated', async (req, res, next) => {
+    try {
+      const users = await User.aggregate([
+        {
+          // Add amountSpent field which contains the sum of the price of
+          // all hats for this user
+          $addFields: {
+            amountSpent: {
+              // equivalent to
+              // currentUser.hats.reduce((acc, hat) => acc + hat.price, 0)
+              $reduce: {
+                input: '$hats',
+                initialValue: 0,
+                in: {$add : ['$$value', '$$this.price']}
+              }
+            }
+          }
         },
-      })
-      pipeline.push({
-        $project: {'sells.__v': false},
-      })
-    }
-
-    const results = await User.aggregate(pipeline)
-    if (results[0]) {
-      const user = results[0]
-      res.json({success:true, user})
+        // Include only _id, email and amountSpent
+        { $project: { _id: 1, email: 1, amountSpent: 1 } },
+        { $sort: { amountSpent: -1 } },
+        { $limit: 50, }
+      ])
+      res.json({success: true, users})
+    } catch (e) {
+      next(e)
     }
   })
 
