@@ -19,12 +19,19 @@ const UserSchema = mongoose.Schema({
     type: String,
     ref: 'Hat',
   }],
+  recommendedHats: [{
+    type: String,
+    ref: 'Recommendation',
+  }],
 })
 
 const Hat = mongoose.models.Hat || mongoose.model('Hat', HatSchema)
+
+const Recommendation = mongoose.models.Recommendation || mongoose.model('Recommendation', HatSchema)
 
 const User = mongoose.models.User || mongoose.model('User', UserSchema)
 
 exports.User = User
 exports.Hat = Hat
+exports.Recommendation = Recommendation
 exports.db = mongoose.connection

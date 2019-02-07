@@ -5,6 +5,7 @@ const { deleteAll, checkResponse, checkUser, checkHat } = require('./utils')
 const { seedUsers } = require('../db/seeders')
 const { User } = require('../db')
 const mongoose = require('mongoose')
+const { refreshRecommendations } = require('../routes/users')
 chai.should()
 chai.use(chaiHttp)
 
@@ -315,6 +316,42 @@ describe('User routes', () => {
       resMin.body.error.message.should.eql('minSpent should be a number')
       resMax.body.error.message.should.eql('maxSpent should be a number')
     })
+
+  })
+
+  describe('GET /users/recommendations', () => {
+
+    it('should get an array with users', async () => {
+      const res = await chai.request(app).get('/users/recommendations')
+
+      checkResponse(res)
+      res.body.users.should.be.an('array')
+
+    })
+
+    it('should show users with their recommendations', async () => {
+      await seedUsers()
+      await refreshRecommendations()
+
+      const res = await chai.request(app).get('/users/recommendations')
+
+      checkResponse(res)
+      res.body.users.should.be.an('array')
+      res.body.users.should.have.lengthOf(50)
+
+      res.body.users.forEach(user => {
+        user.should.include.keys('recommendedHats', 'email')
+
+        user.email.should.be.a('string')
+        user.recommendedHats.should.be.an('array')
+        user.recommendedHats.should.not.have.lengthOf(0)
+
+        user.recommendedHats.forEach(hat => {
+          checkHat(hat)
+        })
+      })
+
+    }).timeout(10000)
 
   })
 
