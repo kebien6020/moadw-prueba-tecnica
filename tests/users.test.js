@@ -6,6 +6,7 @@ const { seedUsers } = require('../db/seeders')
 const { User } = require('../db')
 const mongoose = require('mongoose')
 const { refreshRecommendations } = require('../routes/users')
+const fs = require('fs')
 chai.should()
 chai.use(chaiHttp)
 
@@ -350,6 +351,34 @@ describe('User routes', () => {
           checkHat(hat)
         })
       })
+
+    }).timeout(10000)
+
+  })
+
+  describe('GET /users/recommendations/save', () => {
+
+    it('should save to a JSON file the same as /users/recommendations', async () => {
+      await seedUsers()
+      await refreshRecommendations()
+
+      for (let page = 1; page <= 3; ++page) {
+        const url1 = `/users/recommendations?page=${page}`
+        const url2 = `/users/recommendations/save?page=${page}`
+
+        const res1 = await chai.request(app).get(url1)
+        const res2 = await chai.request(app).get(url2)
+
+        checkResponse(res1)
+        checkResponse(res2)
+
+        const filename = `storage/recommendations-page-${page}.json`
+        const fileText = fs.readFileSync(filename, {encoding: 'utf8'})
+        const fileObj = JSON.parse(fileText)
+
+        res1.body.should.deep.eql(fileObj)
+
+      }
 
     }).timeout(10000)
 

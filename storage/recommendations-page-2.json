@@ -1,0 +1,1527 @@
+{
+    "success": true,
+    "users": [
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef24d",
+                "5c5b7f3deae1cb6c280ef24e",
+                "5c5b7f3deae1cb6c280ef24f",
+                "5c5b7f3deae1cb6c280ef250",
+                "5c5b7f3deae1cb6c280ef251",
+                "5c5b7f3deae1cb6c280ef252",
+                "5c5b7f3deae1cb6c280ef253",
+                "5c5b7f3deae1cb6c280ef254",
+                "5c5b7f3deae1cb6c280ef255",
+                "5c5b7f3deae1cb6c280ef256"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef484",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef485",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef486",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef257",
+            "email": "Una_Bailey51@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef258"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef487",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef488",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef489",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef259",
+            "email": "Blaze_Senger35@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef25a"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef48a",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef48b",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef48c",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef25b",
+            "email": "Mario_Halvorson61@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef25c",
+                "5c5b7f3deae1cb6c280ef25d",
+                "5c5b7f3deae1cb6c280ef25e",
+                "5c5b7f3deae1cb6c280ef25f"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef48d",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef48e",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef48f",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef260",
+            "email": "Sterling_Kris83@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef261"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef490",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef491",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef492",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef262",
+            "email": "Frederick.Jerde48@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef263",
+                "5c5b7f3deae1cb6c280ef264",
+                "5c5b7f3deae1cb6c280ef265"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef493",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef494",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef495",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef266",
+            "email": "Tina62@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef267",
+                "5c5b7f3deae1cb6c280ef268",
+                "5c5b7f3deae1cb6c280ef269",
+                "5c5b7f3deae1cb6c280ef26a"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef496",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef497",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef498",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef26b",
+            "email": "Felix26@yahoo.com"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef499",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef49a",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef49b",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef26c",
+            "email": "Annalise.Will75@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef26d",
+                "5c5b7f3deae1cb6c280ef26e"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef49c",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef49d",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef49e",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef26f",
+            "email": "Hilma88@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef270",
+                "5c5b7f3deae1cb6c280ef271",
+                "5c5b7f3deae1cb6c280ef272",
+                "5c5b7f3deae1cb6c280ef273"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef49f",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a0",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a1",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef274",
+            "email": "Syble_Cartwright@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef275",
+                "5c5b7f3deae1cb6c280ef276",
+                "5c5b7f3deae1cb6c280ef277",
+                "5c5b7f3deae1cb6c280ef278",
+                "5c5b7f3deae1cb6c280ef279",
+                "5c5b7f3deae1cb6c280ef27a"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a2",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a3",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a4",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef27b",
+            "email": "Hallie.Jerde@yahoo.com"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a5",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a6",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a7",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef27c",
+            "email": "Magnolia83@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef27d",
+                "5c5b7f3deae1cb6c280ef27e",
+                "5c5b7f3deae1cb6c280ef27f",
+                "5c5b7f3deae1cb6c280ef280",
+                "5c5b7f3deae1cb6c280ef281",
+                "5c5b7f3deae1cb6c280ef282",
+                "5c5b7f3deae1cb6c280ef283",
+                "5c5b7f3deae1cb6c280ef284"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a8",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4a9",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4aa",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef285",
+            "email": "Thad.Predovic@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef286",
+                "5c5b7f3deae1cb6c280ef287"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4ab",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4ac",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4ad",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef288",
+            "email": "Mya_Considine71@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef289"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4ae",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4af",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b0",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef28a",
+            "email": "Carter.Roob@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef28b",
+                "5c5b7f3deae1cb6c280ef28c",
+                "5c5b7f3deae1cb6c280ef28d",
+                "5c5b7f3deae1cb6c280ef28e",
+                "5c5b7f3deae1cb6c280ef28f",
+                "5c5b7f3deae1cb6c280ef290",
+                "5c5b7f3deae1cb6c280ef291",
+                "5c5b7f3deae1cb6c280ef292"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b1",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b2",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b3",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef293",
+            "email": "Mafalda_Klocko90@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef294",
+                "5c5b7f3deae1cb6c280ef295",
+                "5c5b7f3deae1cb6c280ef296"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b4",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b5",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b6",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef297",
+            "email": "Cierra.Bechtelar41@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef298",
+                "5c5b7f3deae1cb6c280ef299",
+                "5c5b7f3deae1cb6c280ef29a",
+                "5c5b7f3deae1cb6c280ef29b"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b7",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b8",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4b9",
+                    "name": "Unbranded Fresh Pants",
+                    "price": 986,
+                    "material": "Plastic"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef29c",
+            "email": "Emery_Rolfson@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef29d",
+                "5c5b7f3deae1cb6c280ef29e"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4ba",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4bb",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4bc",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef29f",
+            "email": "Elizabeth.Jast95@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2a0",
+                "5c5b7f3deae1cb6c280ef2a1",
+                "5c5b7f3deae1cb6c280ef2a2",
+                "5c5b7f3deae1cb6c280ef2a3",
+                "5c5b7f3deae1cb6c280ef2a4",
+                "5c5b7f3deae1cb6c280ef2a5",
+                "5c5b7f3deae1cb6c280ef2a6",
+                "5c5b7f3deae1cb6c280ef2a7",
+                "5c5b7f3deae1cb6c280ef2a8"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4bd",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4be",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4bf",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2a9",
+            "email": "Zoey8@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2aa",
+                "5c5b7f3deae1cb6c280ef2ab"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c0",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c1",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c2",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2ac",
+            "email": "Sophie7@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2ad",
+                "5c5b7f3deae1cb6c280ef2ae",
+                "5c5b7f3deae1cb6c280ef2af",
+                "5c5b7f3deae1cb6c280ef2b0",
+                "5c5b7f3deae1cb6c280ef2b1",
+                "5c5b7f3deae1cb6c280ef2b2",
+                "5c5b7f3deae1cb6c280ef2b3",
+                "5c5b7f3deae1cb6c280ef2b4",
+                "5c5b7f3deae1cb6c280ef2b5"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c3",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c4",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c5",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2b6",
+            "email": "Chet.Rowe27@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2b7",
+                "5c5b7f3deae1cb6c280ef2b8",
+                "5c5b7f3deae1cb6c280ef2b9"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c6",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c7",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c8",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2ba",
+            "email": "Ima17@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2bb",
+                "5c5b7f3deae1cb6c280ef2bc",
+                "5c5b7f3deae1cb6c280ef2bd"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4c9",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4ca",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4cb",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2be",
+            "email": "Whitney_Fisher50@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2bf",
+                "5c5b7f3deae1cb6c280ef2c0",
+                "5c5b7f3deae1cb6c280ef2c1",
+                "5c5b7f3deae1cb6c280ef2c2",
+                "5c5b7f3deae1cb6c280ef2c3",
+                "5c5b7f3deae1cb6c280ef2c4",
+                "5c5b7f3deae1cb6c280ef2c5",
+                "5c5b7f3deae1cb6c280ef2c6",
+                "5c5b7f3deae1cb6c280ef2c7"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4cc",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4cd",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4ce",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2c8",
+            "email": "Monserrat29@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2c9",
+                "5c5b7f3deae1cb6c280ef2ca"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4cf",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4d0",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3deae1cb6c280ef4d1",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2cb",
+            "email": "Ellen70@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2cc",
+                "5c5b7f3deae1cb6c280ef2cd",
+                "5c5b7f3deae1cb6c280ef2ce",
+                "5c5b7f3deae1cb6c280ef2cf",
+                "5c5b7f3deae1cb6c280ef2d0",
+                "5c5b7f3deae1cb6c280ef2d1"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4d2",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4d3",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4d4",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2d2",
+            "email": "Amya29@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2d3",
+                "5c5b7f3deae1cb6c280ef2d4",
+                "5c5b7f3deae1cb6c280ef2d5",
+                "5c5b7f3deae1cb6c280ef2d6",
+                "5c5b7f3deae1cb6c280ef2d7",
+                "5c5b7f3deae1cb6c280ef2d8",
+                "5c5b7f3deae1cb6c280ef2d9",
+                "5c5b7f3deae1cb6c280ef2da"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4d5",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4d6",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4d7",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2db",
+            "email": "Abdul89@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2dc",
+                "5c5b7f3deae1cb6c280ef2dd",
+                "5c5b7f3deae1cb6c280ef2de"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4d8",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4d9",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4da",
+                    "name": "Unbranded Fresh Pants",
+                    "price": 986,
+                    "material": "Plastic"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2df",
+            "email": "Jerrod_Lueilwitz7@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2e0",
+                "5c5b7f3deae1cb6c280ef2e1",
+                "5c5b7f3deae1cb6c280ef2e2",
+                "5c5b7f3deae1cb6c280ef2e3",
+                "5c5b7f3deae1cb6c280ef2e4",
+                "5c5b7f3deae1cb6c280ef2e5",
+                "5c5b7f3deae1cb6c280ef2e6",
+                "5c5b7f3deae1cb6c280ef2e7",
+                "5c5b7f3deae1cb6c280ef2e8"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4db",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4dc",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4dd",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2e9",
+            "email": "Edgardo_Zulauf@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2ea",
+                "5c5b7f3deae1cb6c280ef2eb"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4de",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4df",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e0",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2ec",
+            "email": "Geraldine.Veum@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2ed",
+                "5c5b7f3deae1cb6c280ef2ee",
+                "5c5b7f3deae1cb6c280ef2ef"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e1",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e2",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e3",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2f0",
+            "email": "April_Bednar@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2f1",
+                "5c5b7f3deae1cb6c280ef2f2",
+                "5c5b7f3deae1cb6c280ef2f3",
+                "5c5b7f3deae1cb6c280ef2f4",
+                "5c5b7f3deae1cb6c280ef2f5",
+                "5c5b7f3deae1cb6c280ef2f6"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e4",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e5",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e6",
+                    "name": "Incredible Metal Chips",
+                    "price": 986,
+                    "material": "Granite"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef2f7",
+            "email": "Phyllis64@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef2f8",
+                "5c5b7f3deae1cb6c280ef2f9",
+                "5c5b7f3deae1cb6c280ef2fa",
+                "5c5b7f3deae1cb6c280ef2fb",
+                "5c5b7f3deae1cb6c280ef2fc",
+                "5c5b7f3deae1cb6c280ef2fd",
+                "5c5b7f3deae1cb6c280ef2fe",
+                "5c5b7f3deae1cb6c280ef2ff"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e7",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e8",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4e9",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef300",
+            "email": "Magdalen_Bode@yahoo.com"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4ea",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4eb",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4ec",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef301",
+            "email": "Nickolas_Bernier@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef302",
+                "5c5b7f3deae1cb6c280ef303"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4ed",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4ee",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4ef",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef304",
+            "email": "Penelope.Langosh58@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef305",
+                "5c5b7f3deae1cb6c280ef306",
+                "5c5b7f3deae1cb6c280ef307",
+                "5c5b7f3deae1cb6c280ef308",
+                "5c5b7f3deae1cb6c280ef309",
+                "5c5b7f3deae1cb6c280ef30a",
+                "5c5b7f3deae1cb6c280ef30b",
+                "5c5b7f3deae1cb6c280ef30c",
+                "5c5b7f3deae1cb6c280ef30d",
+                "5c5b7f3deae1cb6c280ef30e"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f0",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f1",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f2",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef30f",
+            "email": "Jordi73@hotmail.com"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f3",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f4",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f5",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef310",
+            "email": "Jadon84@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef311"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f6",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f7",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f8",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef312",
+            "email": "Hettie30@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef313",
+                "5c5b7f3deae1cb6c280ef314",
+                "5c5b7f3deae1cb6c280ef315",
+                "5c5b7f3deae1cb6c280ef316",
+                "5c5b7f3deae1cb6c280ef317",
+                "5c5b7f3deae1cb6c280ef318",
+                "5c5b7f3deae1cb6c280ef319",
+                "5c5b7f3deae1cb6c280ef31a",
+                "5c5b7f3deae1cb6c280ef31b",
+                "5c5b7f3deae1cb6c280ef31c"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4f9",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4fa",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4fb",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef31d",
+            "email": "Eloy76@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef31e"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4fc",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4fd",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4fe",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef31f",
+            "email": "Effie_Gorczany@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef320",
+                "5c5b7f3deae1cb6c280ef321",
+                "5c5b7f3deae1cb6c280ef322",
+                "5c5b7f3deae1cb6c280ef323",
+                "5c5b7f3deae1cb6c280ef324",
+                "5c5b7f3deae1cb6c280ef325",
+                "5c5b7f3deae1cb6c280ef326",
+                "5c5b7f3deae1cb6c280ef327",
+                "5c5b7f3deae1cb6c280ef328"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef4ff",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef500",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef501",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef329",
+            "email": "Jessy41@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef32a",
+                "5c5b7f3deae1cb6c280ef32b",
+                "5c5b7f3deae1cb6c280ef32c",
+                "5c5b7f3deae1cb6c280ef32d"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef502",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef503",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef504",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef32e",
+            "email": "Icie_Ullrich51@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef32f",
+                "5c5b7f3deae1cb6c280ef330"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef505",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef506",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef507",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef331",
+            "email": "Cathrine_Weissnat@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef332",
+                "5c5b7f3deae1cb6c280ef333",
+                "5c5b7f3deae1cb6c280ef334",
+                "5c5b7f3deae1cb6c280ef335",
+                "5c5b7f3deae1cb6c280ef336",
+                "5c5b7f3deae1cb6c280ef337"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef508",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef509",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef50a",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef338",
+            "email": "Lavon.Morar15@hotmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef339",
+                "5c5b7f3deae1cb6c280ef33a",
+                "5c5b7f3deae1cb6c280ef33b",
+                "5c5b7f3deae1cb6c280ef33c",
+                "5c5b7f3deae1cb6c280ef33d",
+                "5c5b7f3deae1cb6c280ef33e",
+                "5c5b7f3deae1cb6c280ef33f",
+                "5c5b7f3deae1cb6c280ef340"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef50b",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef50c",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef50d",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef341",
+            "email": "Russel.Nolan@gmail.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef342",
+                "5c5b7f3deae1cb6c280ef343",
+                "5c5b7f3deae1cb6c280ef344",
+                "5c5b7f3deae1cb6c280ef345",
+                "5c5b7f3deae1cb6c280ef346",
+                "5c5b7f3deae1cb6c280ef347",
+                "5c5b7f3deae1cb6c280ef348",
+                "5c5b7f3deae1cb6c280ef349",
+                "5c5b7f3deae1cb6c280ef34a",
+                "5c5b7f3deae1cb6c280ef34b"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef50e",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef50f",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef510",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef34c",
+            "email": "Sydnie.Effertz@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef34d",
+                "5c5b7f3deae1cb6c280ef34e",
+                "5c5b7f3deae1cb6c280ef34f",
+                "5c5b7f3deae1cb6c280ef350",
+                "5c5b7f3deae1cb6c280ef351",
+                "5c5b7f3deae1cb6c280ef352",
+                "5c5b7f3deae1cb6c280ef353",
+                "5c5b7f3deae1cb6c280ef354",
+                "5c5b7f3deae1cb6c280ef355"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef511",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef512",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef513",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef356",
+            "email": "Leora.Leffler1@yahoo.com"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef514",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef515",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef516",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef357",
+            "email": "Kasey_Toy@yahoo.com"
+        },
+        {
+            "hats": [
+                "5c5b7f3deae1cb6c280ef358",
+                "5c5b7f3deae1cb6c280ef359",
+                "5c5b7f3deae1cb6c280ef35a",
+                "5c5b7f3deae1cb6c280ef35b",
+                "5c5b7f3deae1cb6c280ef35c",
+                "5c5b7f3deae1cb6c280ef35d",
+                "5c5b7f3deae1cb6c280ef35e",
+                "5c5b7f3deae1cb6c280ef35f"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef517",
+                    "name": "Gorgeous Steel Soap",
+                    "price": 1000,
+                    "material": "Concrete"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef518",
+                    "name": "Handmade Plastic Shoes",
+                    "price": 998,
+                    "material": "Fresh"
+                },
+                {
+                    "_id": "5c5b7f3eeae1cb6c280ef519",
+                    "name": "Refined Metal Towels",
+                    "price": 996,
+                    "material": "Fresh"
+                }
+            ],
+            "_id": "5c5b7f3deae1cb6c280ef360",
+            "email": "Thelma.Murazik41@gmail.com"
+        }
+    ],
+    "totalPages": 3
+}
