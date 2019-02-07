@@ -2,6 +2,8 @@ const { User, Hat, Recommendation } = require('../db')
 const { InvalidParameterError } = require('../errors/errorClasses')
 const debug = require('debug')
 const mongoose = require('mongoose')
+const fs = require('fs')
+const path = require('path')
 
 // Lists all users with their hats
 // Use for debugging purposes
@@ -217,34 +219,65 @@ async function refreshRecommendationsEndpoint(_req, res, next) {
   }
 }
 
+async function getRecommendationsPaged(pageStr) {
+  // For this endpoint users are paginated every 50 entries, the number
+  // is fixed in the spec, but it can be changed here if it's needed
+  const pageSize = 50
+
+  // By default assume page as 1, even if not provided in the URL
+  let page = 1
+
+  // Validation: If everything is fine with the query parameter, use
+  // that as the page number, otherwise ignore it
+  const pageRaw = pageStr
+  if (checkNatural(pageRaw)) page = Number(pageRaw)
+
+  const users = await User
+    .find({}, '-__v')
+    .skip((page - 1) * pageSize)
+    .limit(pageSize)
+    .populate('recommendedHats', '-__v')
+
+  // Total user count can't be retrieved in the previous query
+  const userCount = await User.countDocuments({})
+  const totalPages = Math.ceil(userCount / pageSize)
+
+  return { users, totalPages, page }
+}
+
 async function listRecommendations(req, res, next) {
   try {
-    // For this endpoint users are paginated every 50 entries, the number
-    // is fixed in the spec, but it can be changed here if it's needed
-    const pageSize = 50
 
-    // By default assume page as 1, even if not provided in the URL
-    let page = 1
-
-    // Validation: If everything is fine with the query parameter, use
-    // that as the page number, otherwise ignore it
-    const pageRaw = req.query.page
-    if (checkNatural(pageRaw)) page = Number(pageRaw)
-
-    const users = await User
-      .find({}, '-__v')
-      .skip((page - 1) * pageSize)
-      .limit(pageSize)
-      .populate('recommendedHats', '-__v')
-
-    // Total user count can't be retrieved in the previous query
-    const userCount = await User.countDocuments({})
-    const totalPages = Math.ceil(userCount / pageSize)
+    const {users, totalPages} = await getRecommendationsPaged(req.query.page)
 
     res.json({success: true, users, totalPages})
   } catch (e) {
     next(e)
   }
+}
+
+async function saveRecommendationsAsJson(req, res, next) {
+  try {
+    const {users, totalPages, page} = await getRecommendationsPaged(req.query.page)
+
+    const objToSave = {success: true, users, totalPages}
+    // Pretty-print JSON with 4 space indentation
+    const strToSave = JSON.stringify(objToSave, null, 4)
+
+    const filename = `recommendations-page-${page}.json`
+    const filepath = path.resolve(__dirname, '../storage', filename)
+
+    fs.writeFile(filepath, strToSave, {encoding: 'utf8'}, err => {
+      if (err) throw err
+
+      res.json({success: true})
+    })
+
+
+  } catch (e) {
+    next(e)
+  }
+
 }
 
 module.exports = {
@@ -253,4 +286,5 @@ module.exports = {
   refreshRecommendations,
   refreshRecommendationsEndpoint,
   listRecommendations,
+  saveRecommendationsAsJson,
 }

@@ -1,0 +1,1545 @@
+{
+    "success": true,
+    "users": [
+        {
+            "hats": [
+                "14c801af-be0b-48f9-a9a4-cd7a507fd530",
+                "aced5107-607d-46e9-b810-92e3d878ed6f",
+                "09462ae9-0401-476d-93ca-d549059a17dd",
+                "7131b6c4-1f16-43a3-8e38-aad758305bdd"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b95",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b96",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b97",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "ed43e2b3-844e-49c0-a500-02a6e6d63b49",
+            "email": "Abagail_Daniel12@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "a9b57742-87bf-41e5-9ca9-3cde66d1a59a",
+                "43e53828-2940-439f-ae02-c57e8b11d792",
+                "61666362-0127-4e45-b801-974bd3152a43",
+                "9fe61b2d-925b-45bc-a5bd-ba5fe83832ad",
+                "7b10824e-509d-4cf1-9af7-dbb5d860b4ce"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b98",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b99",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b9a",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "1ba2b434-fed5-4127-9c35-47d2a8966a5f",
+            "email": "Margarete.Roob20@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.537Z",
+            "updatedAt": "2019-02-04T20:56:25.537Z"
+        },
+        {
+            "hats": [
+                "c4331019-18f7-4eb5-9992-f8a07a4c4054",
+                "45f2b88d-80e7-457d-a6ea-f6f4106e9cd3",
+                "61e458fc-4fb6-4459-aab8-766b2f981da1",
+                "9fe9f311-8e58-417d-813b-14a22648a5c4",
+                "5e1b13aa-c40c-4a31-b642-86db93f64710"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b9b",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b9c",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ec6eb6a135fceb6b9d",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "74f76d5e-19ee-404c-9303-0cb816717298",
+            "email": "Thaddeus.McCullough68@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "2d74c060-70ba-4cf1-9aeb-770d749a2946",
+                "239f0f1c-39f0-4012-b074-6532f65748b8",
+                "1be9255c-83a2-4ab2-bc15-61d7b2b9bdbe",
+                "ecee123c-9f74-4775-8d11-c39c76496602",
+                "6adf25b1-60bc-4524-8be3-8ad1e54e577d"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6b9e",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6b9f",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6ba0",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "6075f000-fc8e-481d-a260-260a705031ec",
+            "email": "Augusta91@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "ba7daf1d-58d3-433d-8287-c916e0f0f932",
+                "35730aef-f125-4cfe-bff4-4898f0ec75a3",
+                "7a80c3b6-e75c-4728-bc83-4969d5974df3",
+                "13f9d4a0-473f-4e2d-ba54-ea729581f464",
+                "488527ab-a358-4a22-a21e-ff46150a8f45"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6ba1",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6ba2",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6ba3",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "2d5c703f-e9b6-4696-af2d-7c6a29ae6e84",
+            "email": "Arthur_Champlin@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.537Z",
+            "updatedAt": "2019-02-04T20:56:25.537Z"
+        },
+        {
+            "hats": [
+                "78fbec7d-7a48-4d63-b8a4-320f70c5df18"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6ba4",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6ba5",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ed6eb6a135fceb6ba6",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "c893fc25-48f4-4258-b480-ed71afd8a208",
+            "email": "Aniya_Aufderhar10@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "fb8c42e6-adeb-4786-8447-1bc36a513738",
+                "e5223be1-6d6b-4e8c-ab7c-559836803c23"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6ba7",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6ba8",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6ba9",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "289cbc9d-20df-416b-8011-2bc4241da8eb",
+            "email": "Mina_Braun@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "2db6b2b8-18b1-4b0f-a124-5be742e73450",
+                "c85feb86-1154-4d8b-983b-bbf019eee110",
+                "812deb3c-1cfb-4a4f-8dab-d546fb58719a",
+                "21b6a73a-a02f-4984-94a5-02ea884cf33e"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6baa",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bab",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bac",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "93e03f56-3b7f-4993-bd49-267499ca4d8d",
+            "email": "Kirstin_Ritchie@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "2e1423ed-f77d-4d4f-a4b6-40f355df18bb",
+                "efe27d40-954f-4be2-af0f-9155a9ecfd1b"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bad",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bae",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6baf",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "48475093-0ca5-4d8e-a913-d8e2d66d40d1",
+            "email": "Wellington_Marquardt66@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "4be4c5cd-8ca3-484a-b61c-60ef9710cdd7",
+                "f5add4c2-cae2-47b6-9b9d-dadd17da1fb2"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bb0",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bb1",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bb2",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "58f7098f-471b-4389-ac1f-141854eec8cb",
+            "email": "Courtney58@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "27dc14c7-f56a-4f69-b8a4-a547649d9aad",
+                "87f642de-bb52-455f-8fe2-7e9aa0582193",
+                "43cbac60-00cc-47e1-a745-8608e376fe5c",
+                "ec680490-302a-4e0e-bf3c-4db96150c194"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bb3",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bb4",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ee6eb6a135fceb6bb5",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "7b7e0b56-0949-46a2-8a22-9e0360d6885c",
+            "email": "Wellington42@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "9e18f5c1-ee3a-4755-8d9e-5f579b8fe92e",
+                "bbde585f-98ba-43d0-b3e5-be60b8030f23"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bb6",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bb7",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bb8",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "0b529bc2-4666-400a-9f75-380d449d75ca",
+            "email": "Marisol_Kuhn@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "988c5aeb-b9c0-4b6d-bafc-adfdb5a8f571",
+                "42220a23-700b-47cf-a005-069982e6426a",
+                "94e6c052-88bc-4e30-900f-b6c9d705cb7a",
+                "d7d7dba3-e8ea-446c-b2f4-c1a5badab6d1",
+                "30f28d72-121b-46eb-a605-b8917d33459c"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bb9",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bba",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bbb",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "fe6571cb-2d0d-4ad2-b6fe-75f73e1f76ce",
+            "email": "Bryon_Cronin@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "df2b121e-e874-4954-9c3f-5547f3d43900",
+                "64e05591-fe9f-455e-a8bd-37285a0e738c"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bbc",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bbd",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bbe",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "7b171610-6063-43f3-ad4d-c5e99451bcfc",
+            "email": "Kennedy69@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bbf",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bc0",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ef6eb6a135fceb6bc1",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "ad383761-ba17-4d7a-b38c-490032ca655b",
+            "email": "Krystel91@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "963e373f-8065-44bc-ba9b-50f263acd100"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bc2",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bc3",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bc4",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "0a852a2a-815a-4185-8429-75f492a38539",
+            "email": "Lesly_Jerde@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "a1305503-f2e9-4deb-9192-8f3edae3eb6d",
+                "5c0d38b0-c5f4-4743-b4fd-ae02af3d9ae8",
+                "69c1110a-c028-4f5e-8ac8-f1146bfabe8e",
+                "c2740ebd-9baa-4cd6-818f-aac86ff9411f"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bc5",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bc6",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bc7",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "5b7d6f78-d686-4d85-bb68-8c70d5ea95ce",
+            "email": "Jude.Langworth61@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "bd5a9e1e-7769-4404-b6cb-f46acbb6c437",
+                "1fb26dca-0edd-4ed5-aefe-a458c6ae08e5",
+                "3988c9b1-0a96-454d-925b-e8ab8c84c77d",
+                "0f749e48-490f-49e0-8ea8-910bcca56e49",
+                "781063ad-5f78-4cc2-a083-d0961e4018d2"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bc8",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bc9",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bca",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "3e5ac3bd-573d-4092-8daa-f7c97db20e37",
+            "email": "Oren.Gislason28@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bcb",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bcc",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bcd",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "eeaff58e-f659-4d02-a12a-f58d0a84607d",
+            "email": "Aurelia31@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "5e7f09dd-97cf-4937-897c-ca21d8c68dc5",
+                "3e4e568d-0ae7-4d97-a95a-6c13c94fe09c",
+                "3e97a776-40f3-4ba1-abd5-b97f95691311",
+                "093e1117-2c76-4f0d-a822-536deb5fa8d9",
+                "22dbc62a-9666-4d77-9074-2fadfac4fb08"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bce",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bcf",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f06eb6a135fceb6bd0",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "8d9131b3-85b4-4938-badf-b741eb4f34d9",
+            "email": "Lionel.McCullough@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "f4bc094c-1b9c-4246-9dc9-ac4336373ca0",
+                "3bcc1793-7786-460f-86c4-f3d3bec0b6be"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd1",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd2",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd3",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "16ef17d4-6a08-400b-8a81-0e5d67c7b260",
+            "email": "Demario35@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "04c60be6-e839-4784-9bfe-cdc3cdf5bbe8"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd4",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd5",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd6",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "ff7e20ed-30c4-4cca-a4b7-24936325adb6",
+            "email": "Ruthie55@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd7",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd8",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bd9",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "99c59f2b-e21a-486f-a3b8-24d7aa55bcb4",
+            "email": "Eladio_Schmitt56@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "1b5c3056-b3ac-4b3c-a5d7-281e6a28bde0",
+                "70f8dc51-31ce-4f9f-a463-89e5e2bf33fd",
+                "586fc8e2-6b7b-4bc5-871c-3816f8155363",
+                "d9d11c83-6baf-4165-bcb2-5aef992d1f2c",
+                "a38575d3-ce31-41e8-b470-4f1e0625ff22"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bda",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bdb",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f16eb6a135fceb6bdc",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "1a1a3f3e-7105-428b-a235-d359835602c8",
+            "email": "Narciso_MacGyver10@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "c714eaab-389e-4e41-a07a-5b743a5fc628",
+                "eb15fb3c-b0fc-4526-b428-77d433245b2d",
+                "1c53fa78-63d3-4f3e-b550-9fc4d96dd6cd",
+                "d81802f7-2d09-487d-a8b6-e9ea93f1d055"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f26eb6a135fceb6bdd",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6bde",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6bdf",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "4e5b3036-16e5-4023-a14e-dd645e11a60b",
+            "email": "Kaden67@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "eeae2e93-6b2b-41c6-a70b-f1f3a882cce1",
+                "5e38caa0-5299-4850-9e82-7ab4fd334217",
+                "fee7fdbb-0982-406e-b56a-85b926bb78bb"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be0",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be1",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be2",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "4e0316f3-f473-463f-8ce2-241a5aeac0ad",
+            "email": "Stefanie70@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "bfa052e9-d1cd-4ea7-9759-9dc3fa0480b8",
+                "13c188b0-8c21-4c17-a437-9e704307cc57"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be3",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be4",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be5",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "9fbae82b-5420-41a8-bf0f-5228fb4f115f",
+            "email": "Wyatt95@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "f97034bc-ff8c-40fc-ad31-383cecbd77b3",
+                "3e4e568d-0ae7-4d97-a95a-6c13c94fe09c",
+                "fc8e6b4a-64f6-459b-a0a0-6d18c52a7a8d",
+                "830cb420-cabc-427d-ae83-9b817cd03ed5"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be6",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be7",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be8",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "d8bb188f-984d-460f-8daa-ad1ec09baf80",
+            "email": "Eino.Weissnat@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f26eb6a135fceb6be9",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6bea",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f26eb6a135fceb6beb",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "fbf0f3d5-b97a-41d0-8a9a-81ed6ec7d695",
+            "email": "Javonte.Nienow41@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "4c9d86e9-417d-4ed5-9e28-705c99dd51f7",
+                "27210d2d-15a4-4bcd-ab23-cab8cb2660c6",
+                "07cea5c5-c2f5-47c7-9b72-9e17a62f7883",
+                "6099e13a-7225-4120-b626-f86b5f4ee8e7"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bec",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bed",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bee",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "9ee4fdde-b014-4fb0-970b-df5f2db38252",
+            "email": "Danika.Gislason@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "48ecd2c0-9b4f-447a-af41-dd47b4ca4f6e",
+                "e5da799b-b1f8-44f1-8cd2-92dcc51ff72d",
+                "ffb41d34-65b5-48fa-a6b9-f9aa19f175ee",
+                "6a3b9918-6c37-4115-a2ab-529dced56a53"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bef",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bf0",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bf1",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "310e0f2b-b900-434e-9a57-5787e2a7efa2",
+            "email": "Caesar.Schiller@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "f8e34619-0469-475c-a3a1-218f19d8973f",
+                "451c7523-9ec2-4d1a-b14a-291c8f477bde",
+                "934c72f3-0d97-4483-8ccb-85f7a4d54501"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bf2",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bf3",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bf4",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "58c7c1d5-b665-4f38-8ced-dcd420dc2175",
+            "email": "Mable_Wyman62@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "310f3109-8933-4d2e-a614-820e00e7f6d2",
+                "bc6c5596-2170-4e22-bb67-221e3b7602c2"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bf5",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bf6",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f36eb6a135fceb6bf7",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "7bb89f77-8648-48c5-958e-13f03e4281a2",
+            "email": "Bud32@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "5912149f-2fa5-4420-aec5-5d7192385d0b",
+                "6cb8aac8-f28a-4a0f-adfe-18e3de8e42d8",
+                "97554a10-0c9a-4f9e-b95e-3d4f80dbba95"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f46eb6a135fceb6bf8",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6bf9",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6bfa",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "9eebeb77-1ea5-4ec1-a244-61f05d4c95ae",
+            "email": "Alphonso.Kuphal@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "98c2a9af-e3d9-4134-b134-13d80ce8cc48",
+                "61666362-0127-4e45-b801-974bd3152a43",
+                "b699c17c-f131-40df-b8ad-cabcfe4685ce",
+                "dff7bcd9-d5f0-43ed-94e6-76b49bea1fd2"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f46eb6a135fceb6bfb",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6bfc",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6bfd",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "3afa5e4d-1772-42ff-be09-0d0295efb985",
+            "email": "Maryjane37@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "94a9a1c9-7988-4e3e-9fe1-6e8e17240501"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f46eb6a135fceb6bfe",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6bff",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6c00",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "801d290b-8c22-45b5-8665-e4a7ff4ecb02",
+            "email": "Ruby45@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "91ec7bfa-21b0-4391-bc5a-3e3247f38b59",
+                "b4128773-f347-47df-87cb-8e8c4b3790f2",
+                "8a05cce6-a2ec-496d-b1e0-daeb04b11ed8"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f46eb6a135fceb6c01",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6c02",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6c03",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "e286d1cd-ee44-42a4-b7fe-ba777f2b59f2",
+            "email": "Lee_Schamberger@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "f896044f-8d18-47e3-a79e-4ac12b11b282",
+                "53942ded-f115-4272-97d9-7520519bc680"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f46eb6a135fceb6c04",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6c05",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f46eb6a135fceb6c06",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "60d63078-8e7d-4030-8690-967ce4968079",
+            "email": "Nicola_Bechtelar63@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "ffba07df-d1f6-4ffe-9a1a-7089b1c1bb3b",
+                "f196f6fc-7eb2-451a-b968-5bb261c86d1c",
+                "f8150af5-24c3-45d9-b230-4e75dcd70262",
+                "27210d2d-15a4-4bcd-ab23-cab8cb2660c6"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c07",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c08",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c09",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "04b2e9e0-0581-4a66-bc87-6d91e205c504",
+            "email": "Rowan_Zulauf@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "14673684-9331-492b-a1ae-5299b5e62ae7",
+                "051a4a0d-f361-4bc5-b102-f1888cee8c60",
+                "404886eb-0180-4ed6-b67f-ab6b2e6e9de5"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c0a",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c0b",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c0c",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "1746e0cf-a297-4b61-8b28-de6a275de3c4",
+            "email": "Janae31@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c0d",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c0e",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c0f",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "4138edb5-ee98-4965-8a2b-aaa38300dd84",
+            "email": "Faye_Turner@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "2e9734f2-a5c1-4208-b73b-ab56ceee855e"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c10",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c11",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c12",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "e2d6935d-1228-4d3e-a9bb-15dc5735f588",
+            "email": "Vern_Homenick@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c13",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c14",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f56eb6a135fceb6c15",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "f3c5d6f9-53be-4efa-8f4f-2f1d18eb1293",
+            "email": "Dennis59@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.539Z",
+            "updatedAt": "2019-02-04T20:56:25.539Z"
+        },
+        {
+            "hats": [
+                "2f4a4cac-3972-4bef-a8c7-91880e2ca36b",
+                "6fead160-6186-484b-93ff-c124b0ccce52",
+                "936cda93-0553-4148-a42d-c617e525404d",
+                "2fd99b6d-a4a3-44de-bcb6-e96039344137",
+                "cc4189c1-a510-4b95-98ba-0845e370a276"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c16",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c17",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c18",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "bee5b6e3-8253-4ca6-b353-3be3d576eeb5",
+            "email": "Mustafa_Schneider67@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "0f749e48-490f-49e0-8ea8-910bcca56e49",
+                "1430cd2c-f74d-459e-a0fb-452ac7118742",
+                "82bc5f9a-30d7-485a-9aa4-7dc704d50f11",
+                "665931cb-a91b-4e6b-b749-75869250b8fc",
+                "ffadca3f-62cd-4f18-984f-79bc00d450c8"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c19",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c1a",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c1b",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "154706e3-db82-4afa-b980-6f347dc5c783",
+            "email": "Dashawn42@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.539Z",
+            "updatedAt": "2019-02-04T20:56:25.539Z"
+        },
+        {
+            "hats": [
+                "74ec3da6-523c-4a0a-9f62-3a6a2d03b109",
+                "34a73ed2-af05-426a-a56b-954af0a5ae89",
+                "ca324610-f4c5-4c87-b772-79c0c5322862"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c1c",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c1d",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c1e",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "09ca83d6-f78e-49f2-a47d-921f8de20296",
+            "email": "Remington4@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "123cae7a-1b0c-4dc7-980c-9f4dd3d823a8",
+                "402e3cfb-0df9-42d7-acaf-0acf49cd290c",
+                "fcb45bd8-c9e6-4da9-90f5-7a312d978d9f",
+                "e9c6b5da-215f-4354-86b9-c362de3e4f19",
+                "9cafb7a7-556a-4bcc-a005-42fd5fdab56d"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c1f",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c20",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f66eb6a135fceb6c21",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "2fd327e0-71a9-42bc-85c4-debd707a17e4",
+            "email": "Anabelle34@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "59e8d237-7187-4065-bc34-1eb4304c1396",
+                "a6a44773-f6ad-4a1b-9d78-eda231b33bd5",
+                "88dd27b6-d375-405e-8f43-520ad515741d",
+                "943d779f-ac2a-4e3d-8651-65929a32fe7a",
+                "060ae9ee-6e2e-419a-9cd7-51bef37b89db"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c22",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c23",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c24",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "1c4c3328-ab94-407b-a07b-a0e3bc172582",
+            "email": "Major.Bode44@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.539Z",
+            "updatedAt": "2019-02-04T20:56:25.539Z"
+        },
+        {
+            "hats": [
+                "1ac3357c-4da4-4c8c-b9dd-0411e8c7502c",
+                "0cd3468c-d5b5-4935-8378-2f365de079cf",
+                "cb59327d-4abe-494f-bed0-e93fa516ddae"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c25",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c26",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c27",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "b5b58b80-dde9-425b-9a1e-40461559529e",
+            "email": "Julio_Beatty@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        },
+        {
+            "hats": [
+                "394ac681-e046-4f03-b388-90f96ce25ff3"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c28",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c29",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80f76eb6a135fceb6c2a",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "b96ab701-9ea3-49ef-9669-0c702edecaec",
+            "email": "Jackson_Bashirian@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.538Z",
+            "updatedAt": "2019-02-04T20:56:25.538Z"
+        }
+    ],
+    "totalPages": 10
+}
