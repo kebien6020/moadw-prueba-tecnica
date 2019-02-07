@@ -3,1525 +3,1536 @@
     "users": [
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef24d",
-                "5c5b7f3deae1cb6c280ef24e",
-                "5c5b7f3deae1cb6c280ef24f",
-                "5c5b7f3deae1cb6c280ef250",
-                "5c5b7f3deae1cb6c280ef251",
-                "5c5b7f3deae1cb6c280ef252",
-                "5c5b7f3deae1cb6c280ef253",
-                "5c5b7f3deae1cb6c280ef254",
-                "5c5b7f3deae1cb6c280ef255",
-                "5c5b7f3deae1cb6c280ef256"
+                "2c6a4cfa-1e03-4944-bf24-77152ce9a322",
+                "c8a378d1-33aa-4769-9604-a0a4e3aa5507"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef484",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c16eb6a135fceb693d",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef485",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c16eb6a135fceb693e",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef486",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c16eb6a135fceb693f",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef257",
-            "email": "Una_Bailey51@yahoo.com"
+            "_id": "60478b14-5ac9-4c0c-a940-0ed091d560b4",
+            "email": "Corbin_Homenick1@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef258"
+                "133da718-fe60-459a-b308-e9f444cf53b5"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef487",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c16eb6a135fceb6940",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef488",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c16eb6a135fceb6941",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef489",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c16eb6a135fceb6942",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef259",
-            "email": "Blaze_Senger35@gmail.com"
+            "_id": "0561f2b5-4a3e-4ad0-89fc-0b1b813fe793",
+            "email": "Arely_Murazik66@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef25a"
+                "f306a096-33ac-423d-b1e5-fbbec4d59917",
+                "05dfd0d5-df98-4c65-8db8-b2db095598fc",
+                "5fd6632e-135e-4cc2-a0c7-9b38b6d8b7dc",
+                "4e3448e1-98f2-4101-a7a2-6fb9ac3776a3"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef48a",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c16eb6a135fceb6943",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef48b",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c16eb6a135fceb6944",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef48c",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c16eb6a135fceb6945",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef25b",
-            "email": "Mario_Halvorson61@hotmail.com"
+            "_id": "5bb5d927-8565-4771-9b2d-41f9bfe81a15",
+            "email": "Garrick_Reilly68@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.534Z",
+            "updatedAt": "2019-02-04T20:56:25.534Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef25c",
-                "5c5b7f3deae1cb6c280ef25d",
-                "5c5b7f3deae1cb6c280ef25e",
-                "5c5b7f3deae1cb6c280ef25f"
+                "e653f565-c299-4124-9f39-51a1dd0af7c5",
+                "c8b0a5aa-bf29-4a96-a35f-e0821c875a79",
+                "b3a6385a-30bb-4340-bb2e-c9c954511615",
+                "dfde38dc-a70f-49fd-950e-0bf49615d890"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef48d",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c26eb6a135fceb6946",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef48e",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c26eb6a135fceb6947",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef48f",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c26eb6a135fceb6948",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef260",
-            "email": "Sterling_Kris83@hotmail.com"
+            "_id": "74e1b117-1ab9-4be9-adce-6d55d1df77af",
+            "email": "Arden.Wunsch@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef261"
+                "b1b0dd76-dc97-4ea7-b2b8-251de2ae234d",
+                "ecc89191-fede-4589-a62e-23238c26da91",
+                "8fbd6cda-9c0c-44a2-8c82-ed44ca514133",
+                "d6e4f33c-4985-4fd4-b6da-602b35d406fd",
+                "ee2f1e65-3d5f-46d3-8ca4-819f60cd5052"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef490",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c26eb6a135fceb6949",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef491",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c26eb6a135fceb694a",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef492",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c26eb6a135fceb694b",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef262",
-            "email": "Frederick.Jerde48@gmail.com"
+            "_id": "7dd2ba93-3a88-4959-9f69-9bb759206f4e",
+            "email": "George.Cormier@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef263",
-                "5c5b7f3deae1cb6c280ef264",
-                "5c5b7f3deae1cb6c280ef265"
+                "7fc2a516-576d-4096-b0c7-81bec89f0528",
+                "a7b88a8c-2eac-4b7b-9e7d-ed7a73252861",
+                "b05b64b6-4df2-4bdc-912f-566020d6f49e"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef493",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c26eb6a135fceb694c",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef494",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c26eb6a135fceb694d",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef495",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c26eb6a135fceb694e",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef266",
-            "email": "Tina62@hotmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef267",
-                "5c5b7f3deae1cb6c280ef268",
-                "5c5b7f3deae1cb6c280ef269",
-                "5c5b7f3deae1cb6c280ef26a"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef496",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef497",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef498",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef26b",
-            "email": "Felix26@yahoo.com"
+            "_id": "54d98642-b29b-4c4c-9fb7-eb209e0668c7",
+            "email": "Laila.Skiles@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.534Z",
+            "updatedAt": "2019-02-04T20:56:25.534Z"
         },
         {
             "hats": [],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef499",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c26eb6a135fceb694f",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef49a",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c26eb6a135fceb6950",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef49b",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c26eb6a135fceb6951",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef26c",
-            "email": "Annalise.Will75@gmail.com"
+            "_id": "84643910-e5d0-410e-87b0-abab59802968",
+            "email": "Price_Murphy@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef26d",
-                "5c5b7f3deae1cb6c280ef26e"
+                "8cc82c70-549a-4e83-8b27-c74c02409150",
+                "6a958cd6-55ef-4086-ae80-ee0e31a2c427"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef49c",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c36eb6a135fceb6952",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef49d",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c36eb6a135fceb6953",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef49e",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c36eb6a135fceb6954",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef26f",
-            "email": "Hilma88@gmail.com"
+            "_id": "44606178-54f7-433f-ba4b-90d0455d4091",
+            "email": "Unique.Kulas9@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef270",
-                "5c5b7f3deae1cb6c280ef271",
-                "5c5b7f3deae1cb6c280ef272",
-                "5c5b7f3deae1cb6c280ef273"
+                "6cccb615-3176-40c2-87fd-5799fb121996",
+                "9aff3815-a1d5-4ba3-abc1-abf5155b4d6f",
+                "1feddec1-0515-48ce-9c33-90429e6ec967"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef49f",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c36eb6a135fceb6955",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a0",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c36eb6a135fceb6956",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a1",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c36eb6a135fceb6957",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef274",
-            "email": "Syble_Cartwright@hotmail.com"
+            "_id": "84b0d63d-0d6d-45d3-8dd8-ccb46d06c705",
+            "email": "Daisha40@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.534Z",
+            "updatedAt": "2019-02-04T20:56:25.534Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef275",
-                "5c5b7f3deae1cb6c280ef276",
-                "5c5b7f3deae1cb6c280ef277",
-                "5c5b7f3deae1cb6c280ef278",
-                "5c5b7f3deae1cb6c280ef279",
-                "5c5b7f3deae1cb6c280ef27a"
+                "e65259d1-449d-4faf-817c-9650582d4c2e",
+                "68f83676-14ff-411c-b310-252e8b5dd496",
+                "7c5e211d-70f5-443f-ae23-af0ee6cf5543",
+                "d855dd39-b613-4443-8660-d1bcfbfed45c"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a2",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c36eb6a135fceb6958",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a3",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c36eb6a135fceb6959",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a4",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c36eb6a135fceb695a",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef27b",
-            "email": "Hallie.Jerde@yahoo.com"
+            "_id": "522aa651-5b32-4663-acef-a400977c9aa8",
+            "email": "Murphy.Hilpert@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "b195b583-a7bd-4fd5-83b6-b1f5e76741ca",
+                "cb3b226d-9cb3-4422-a751-14baabab5cd2"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c36eb6a135fceb695b",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c36eb6a135fceb695c",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c36eb6a135fceb695d",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "86132e48-3189-4ee6-bb04-e32cef1f4c4e",
+            "email": "Walton.McCullough@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "588961bf-aa82-4a57-a9b5-c59b5fb64866",
+                "2acfb30c-afd7-4abb-9438-439a41a24b2d",
+                "e7b70643-4c24-425a-990e-eb5ac593b4c6",
+                "3fe02b67-f4ad-427e-9417-922efacd60fb",
+                "3ff67357-4765-449d-8e23-2643af8d3c2e"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c36eb6a135fceb695e",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c36eb6a135fceb695f",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c36eb6a135fceb6960",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "285a81d8-d503-4654-9a28-fac067bc5f9c",
+            "email": "Cecilia76@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a5",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c46eb6a135fceb6961",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a6",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c46eb6a135fceb6962",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a7",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c46eb6a135fceb6963",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef27c",
-            "email": "Magnolia83@hotmail.com"
+            "_id": "c6275d6c-0486-4cab-a38a-b793b1e663fe",
+            "email": "Alene_Jacobi@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef27d",
-                "5c5b7f3deae1cb6c280ef27e",
-                "5c5b7f3deae1cb6c280ef27f",
-                "5c5b7f3deae1cb6c280ef280",
-                "5c5b7f3deae1cb6c280ef281",
-                "5c5b7f3deae1cb6c280ef282",
-                "5c5b7f3deae1cb6c280ef283",
-                "5c5b7f3deae1cb6c280ef284"
+                "969a11f0-989b-435b-a406-3fde27704e7f"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a8",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c46eb6a135fceb6964",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4a9",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c46eb6a135fceb6965",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4aa",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c46eb6a135fceb6966",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef285",
-            "email": "Thad.Predovic@yahoo.com"
+            "_id": "fa5e27d6-ad98-46f1-9dc6-e12ef20d03f1",
+            "email": "Jany.Macejkovic40@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef286",
-                "5c5b7f3deae1cb6c280ef287"
+                "4aaea5b2-619a-403e-bd52-347afb4d31b5",
+                "2c7ffbe9-13be-46a5-82dc-65e395e37fe8"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4ab",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c46eb6a135fceb6967",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4ac",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c46eb6a135fceb6968",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4ad",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c46eb6a135fceb6969",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef288",
-            "email": "Mya_Considine71@yahoo.com"
+            "_id": "803bc401-e8e4-4f1d-ab91-b8c5b954b57f",
+            "email": "Milford.Grady@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef289"
+                "2635b72e-ec99-4cfb-837f-33f637d22f11",
+                "1a4a64dc-db0a-4b83-949d-085a5daca4ee",
+                "b067c736-076f-408a-8a47-0b33cf553f10",
+                "f6c635ab-6e7e-4756-86be-c4941c49221e",
+                "7e264c6b-c292-42a0-b48d-aaa268053a6b"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4ae",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c46eb6a135fceb696a",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4af",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c46eb6a135fceb696b",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b0",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c46eb6a135fceb696c",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef28a",
-            "email": "Carter.Roob@hotmail.com"
+            "_id": "2a17125a-0075-478d-857f-c7f31338cc16",
+            "email": "Lester68@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef28b",
-                "5c5b7f3deae1cb6c280ef28c",
-                "5c5b7f3deae1cb6c280ef28d",
-                "5c5b7f3deae1cb6c280ef28e",
-                "5c5b7f3deae1cb6c280ef28f",
-                "5c5b7f3deae1cb6c280ef290",
-                "5c5b7f3deae1cb6c280ef291",
-                "5c5b7f3deae1cb6c280ef292"
+                "1cfdd81d-f894-4ab4-95f5-724ed60bdba5",
+                "1785d37c-fce0-43d7-a9a3-9891e95fd4bb",
+                "c27e2625-d507-49eb-812b-999939863b8b",
+                "c9f9f3e3-6fa2-44d2-aeb7-cb3e529117f5",
+                "189b3af8-a8d5-4c66-abec-1b2ee743068c"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b1",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c56eb6a135fceb696d",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b2",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb696e",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b3",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb696f",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef293",
-            "email": "Mafalda_Klocko90@yahoo.com"
+            "_id": "b51c817d-94e1-4e3d-a9b2-32034a8b7dd2",
+            "email": "Maritza4@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef294",
-                "5c5b7f3deae1cb6c280ef295",
-                "5c5b7f3deae1cb6c280ef296"
+                "23eb8ef6-6fbc-4cb4-97ed-a5be7c3001d6",
+                "3961ed42-f118-4e7f-afff-0879636f9d39",
+                "241eab88-4582-44fe-a342-eb2df52779fe",
+                "576eda57-9204-4e73-a95d-79ab30e74140",
+                "1107a7ad-31b1-4c47-9bde-58c1ad850451"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b4",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c56eb6a135fceb6970",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b5",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb6971",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b6",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb6972",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef297",
-            "email": "Cierra.Bechtelar41@gmail.com"
+            "_id": "9ead10c4-69e3-4926-927b-1822fce10290",
+            "email": "Linnie51@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef298",
-                "5c5b7f3deae1cb6c280ef299",
-                "5c5b7f3deae1cb6c280ef29a",
-                "5c5b7f3deae1cb6c280ef29b"
+                "1a527907-120d-483f-8ab1-f1e2f3883e1d",
+                "7ff4cac7-19c6-4ea7-b360-38193c29a8c3",
+                "cdc06352-0f8d-4c1d-abb6-c4ee47c027e6"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b7",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c56eb6a135fceb6973",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b8",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb6974",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4b9",
-                    "name": "Unbranded Fresh Pants",
-                    "price": 986,
-                    "material": "Plastic"
+                    "_id": "5c5b80c56eb6a135fceb6975",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef29c",
-            "email": "Emery_Rolfson@yahoo.com"
+            "_id": "7738bb6f-cb2e-4c38-9b47-c91b2c8b8d8e",
+            "email": "Guadalupe.Tromp29@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef29d",
-                "5c5b7f3deae1cb6c280ef29e"
+                "13850901-d1cf-42b0-89c5-ae8f8a818344"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4ba",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c56eb6a135fceb6976",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4bb",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb6977",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4bc",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb6978",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef29f",
-            "email": "Elizabeth.Jast95@yahoo.com"
+            "_id": "62469352-9594-43a8-98dd-c3aeff35beac",
+            "email": "Emmitt_Reinger@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef2a0",
-                "5c5b7f3deae1cb6c280ef2a1",
-                "5c5b7f3deae1cb6c280ef2a2",
-                "5c5b7f3deae1cb6c280ef2a3",
-                "5c5b7f3deae1cb6c280ef2a4",
-                "5c5b7f3deae1cb6c280ef2a5",
-                "5c5b7f3deae1cb6c280ef2a6",
-                "5c5b7f3deae1cb6c280ef2a7",
-                "5c5b7f3deae1cb6c280ef2a8"
+                "d263a33a-1ffe-48c0-95c8-1b6da55d0181",
+                "2ac5a3ff-640d-4e62-8f43-cd935d7649e0",
+                "3f94febf-2d47-493f-954d-4ea67d3f0593",
+                "4853664b-4b0b-4209-93b2-69ebeadf9467",
+                "9d0b4f1a-46ee-4713-858a-72e9e38d0c6c"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4bd",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c56eb6a135fceb6979",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4be",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb697a",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4bf",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c56eb6a135fceb697b",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef2a9",
-            "email": "Zoey8@yahoo.com"
+            "_id": "574a77a9-8b62-4419-8f0f-49de8dca5b4d",
+            "email": "Anissa_Schumm69@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef2aa",
-                "5c5b7f3deae1cb6c280ef2ab"
+                "b7aaa326-610b-4746-a2e0-dd6814404ebe"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c0",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c66eb6a135fceb697c",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c1",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c66eb6a135fceb697d",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c2",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c66eb6a135fceb697e",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef2ac",
-            "email": "Sophie7@gmail.com"
+            "_id": "f65f961c-6c9d-4d90-b9bd-7092da2df489",
+            "email": "Leonard_Gusikowski@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef2ad",
-                "5c5b7f3deae1cb6c280ef2ae",
-                "5c5b7f3deae1cb6c280ef2af",
-                "5c5b7f3deae1cb6c280ef2b0",
-                "5c5b7f3deae1cb6c280ef2b1",
-                "5c5b7f3deae1cb6c280ef2b2",
-                "5c5b7f3deae1cb6c280ef2b3",
-                "5c5b7f3deae1cb6c280ef2b4",
-                "5c5b7f3deae1cb6c280ef2b5"
+                "e94925f8-7f9d-4a86-b924-fda3049dbef0",
+                "15863938-8da2-4f5d-889a-ee2277bd056f",
+                "6ef61996-c5c3-4e3d-8640-daacca9814be"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c3",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c66eb6a135fceb697f",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c4",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c66eb6a135fceb6980",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c5",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c66eb6a135fceb6981",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef2b6",
-            "email": "Chet.Rowe27@hotmail.com"
+            "_id": "387d3a14-09cb-47e6-a01e-50736f3a2961",
+            "email": "Alessia.Kiehn8@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef2b7",
-                "5c5b7f3deae1cb6c280ef2b8",
-                "5c5b7f3deae1cb6c280ef2b9"
+                "6ea2a0d6-8cd5-450e-801a-87648ae00e84"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c6",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c66eb6a135fceb6982",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c7",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c66eb6a135fceb6983",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3deae1cb6c280ef4c8",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c66eb6a135fceb6984",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef2ba",
-            "email": "Ima17@hotmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2bb",
-                "5c5b7f3deae1cb6c280ef2bc",
-                "5c5b7f3deae1cb6c280ef2bd"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4c9",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4ca",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4cb",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2be",
-            "email": "Whitney_Fisher50@hotmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2bf",
-                "5c5b7f3deae1cb6c280ef2c0",
-                "5c5b7f3deae1cb6c280ef2c1",
-                "5c5b7f3deae1cb6c280ef2c2",
-                "5c5b7f3deae1cb6c280ef2c3",
-                "5c5b7f3deae1cb6c280ef2c4",
-                "5c5b7f3deae1cb6c280ef2c5",
-                "5c5b7f3deae1cb6c280ef2c6",
-                "5c5b7f3deae1cb6c280ef2c7"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4cc",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4cd",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4ce",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2c8",
-            "email": "Monserrat29@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2c9",
-                "5c5b7f3deae1cb6c280ef2ca"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4cf",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4d0",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3deae1cb6c280ef4d1",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2cb",
-            "email": "Ellen70@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2cc",
-                "5c5b7f3deae1cb6c280ef2cd",
-                "5c5b7f3deae1cb6c280ef2ce",
-                "5c5b7f3deae1cb6c280ef2cf",
-                "5c5b7f3deae1cb6c280ef2d0",
-                "5c5b7f3deae1cb6c280ef2d1"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4d2",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4d3",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4d4",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2d2",
-            "email": "Amya29@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2d3",
-                "5c5b7f3deae1cb6c280ef2d4",
-                "5c5b7f3deae1cb6c280ef2d5",
-                "5c5b7f3deae1cb6c280ef2d6",
-                "5c5b7f3deae1cb6c280ef2d7",
-                "5c5b7f3deae1cb6c280ef2d8",
-                "5c5b7f3deae1cb6c280ef2d9",
-                "5c5b7f3deae1cb6c280ef2da"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4d5",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4d6",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4d7",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2db",
-            "email": "Abdul89@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2dc",
-                "5c5b7f3deae1cb6c280ef2dd",
-                "5c5b7f3deae1cb6c280ef2de"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4d8",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4d9",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4da",
-                    "name": "Unbranded Fresh Pants",
-                    "price": 986,
-                    "material": "Plastic"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2df",
-            "email": "Jerrod_Lueilwitz7@gmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2e0",
-                "5c5b7f3deae1cb6c280ef2e1",
-                "5c5b7f3deae1cb6c280ef2e2",
-                "5c5b7f3deae1cb6c280ef2e3",
-                "5c5b7f3deae1cb6c280ef2e4",
-                "5c5b7f3deae1cb6c280ef2e5",
-                "5c5b7f3deae1cb6c280ef2e6",
-                "5c5b7f3deae1cb6c280ef2e7",
-                "5c5b7f3deae1cb6c280ef2e8"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4db",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4dc",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4dd",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2e9",
-            "email": "Edgardo_Zulauf@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2ea",
-                "5c5b7f3deae1cb6c280ef2eb"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4de",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4df",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e0",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2ec",
-            "email": "Geraldine.Veum@gmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2ed",
-                "5c5b7f3deae1cb6c280ef2ee",
-                "5c5b7f3deae1cb6c280ef2ef"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e1",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e2",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e3",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2f0",
-            "email": "April_Bednar@hotmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2f1",
-                "5c5b7f3deae1cb6c280ef2f2",
-                "5c5b7f3deae1cb6c280ef2f3",
-                "5c5b7f3deae1cb6c280ef2f4",
-                "5c5b7f3deae1cb6c280ef2f5",
-                "5c5b7f3deae1cb6c280ef2f6"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e4",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e5",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e6",
-                    "name": "Incredible Metal Chips",
-                    "price": 986,
-                    "material": "Granite"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef2f7",
-            "email": "Phyllis64@gmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef2f8",
-                "5c5b7f3deae1cb6c280ef2f9",
-                "5c5b7f3deae1cb6c280ef2fa",
-                "5c5b7f3deae1cb6c280ef2fb",
-                "5c5b7f3deae1cb6c280ef2fc",
-                "5c5b7f3deae1cb6c280ef2fd",
-                "5c5b7f3deae1cb6c280ef2fe",
-                "5c5b7f3deae1cb6c280ef2ff"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e7",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e8",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4e9",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef300",
-            "email": "Magdalen_Bode@yahoo.com"
+            "_id": "5c3ee7c4-850f-4dda-a3a4-6572e4d0422e",
+            "email": "Sebastian.Metz@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4ea",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c66eb6a135fceb6985",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4eb",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c66eb6a135fceb6986",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4ec",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c66eb6a135fceb6987",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef301",
-            "email": "Nickolas_Bernier@gmail.com"
+            "_id": "9705a4b0-7b85-453d-aa39-f278e51c1e9f",
+            "email": "Agnes.Mueller@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef302",
-                "5c5b7f3deae1cb6c280ef303"
+                "4a605092-b81d-47b4-a341-0acc6301b422",
+                "894349ab-aa8d-49de-abc0-903e013e97ac",
+                "7cf956d9-3cb1-4f6c-910e-b6a2c4d74327"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4ed",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c76eb6a135fceb6988",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4ee",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c76eb6a135fceb6989",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4ef",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c76eb6a135fceb698a",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef304",
-            "email": "Penelope.Langosh58@yahoo.com"
+            "_id": "d9d10d97-7f45-4960-b4d7-1eea65a90407",
+            "email": "Kylie_Ondricka41@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef305",
-                "5c5b7f3deae1cb6c280ef306",
-                "5c5b7f3deae1cb6c280ef307",
-                "5c5b7f3deae1cb6c280ef308",
-                "5c5b7f3deae1cb6c280ef309",
-                "5c5b7f3deae1cb6c280ef30a",
-                "5c5b7f3deae1cb6c280ef30b",
-                "5c5b7f3deae1cb6c280ef30c",
-                "5c5b7f3deae1cb6c280ef30d",
-                "5c5b7f3deae1cb6c280ef30e"
+                "5c714bc1-2b04-4e7d-ba57-6bbff27e329a",
+                "f957dffc-c2c8-4f4c-871d-66884f965e75",
+                "54ccbe5a-dd2c-4ea9-9f07-95509b655515",
+                "09a4fd65-11d3-4011-a83a-d72dea3a6448"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f0",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c76eb6a135fceb698b",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f1",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c76eb6a135fceb698c",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f2",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c76eb6a135fceb698d",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef30f",
-            "email": "Jordi73@hotmail.com"
+            "_id": "424d06b6-ed88-49b9-9ae4-f3db2c901996",
+            "email": "Emiliano_Hauck96@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "3f30b425-2532-4d80-bc19-a40c163b86f4",
+                "66ed1dac-a56f-4512-bf5a-278baee83ec1",
+                "2cfcf039-ed5d-4fec-90f1-5c267db3d775",
+                "e980e080-ae95-431f-a7de-53b49906bb56",
+                "ed461b35-c82d-40a1-89da-d0f8df8b4023"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c76eb6a135fceb698e",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c76eb6a135fceb698f",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c76eb6a135fceb6990",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "416dc07d-af66-432c-a22f-3af88801c201",
+            "email": "Lauriane_Leuschke36@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "c37cf03e-ffa5-4527-ad86-07745b18be0c"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c76eb6a135fceb6991",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c76eb6a135fceb6992",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c76eb6a135fceb6993",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "83ca0b81-5e53-43d5-80f2-251e4c82b856",
+            "email": "Tia39@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "334774d4-c502-4044-83ad-052b59f01370",
+                "c5e58a2b-62f3-49a0-bed1-681239e5a983",
+                "461ccc0f-8ab6-43ee-9583-94aa6066c73a",
+                "ce2d61a5-0d7f-4c54-a3a1-62083f617cf6",
+                "8ce0fcf4-0a61-4b4f-a0e9-ff76559f676e"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c76eb6a135fceb6994",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c76eb6a135fceb6995",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c76eb6a135fceb6996",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "d285fd7c-1145-4680-9941-0b93b9801f92",
+            "email": "Estrella_Rosenbaum@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.536Z",
+            "updatedAt": "2019-02-04T20:56:25.536Z"
+        },
+        {
+            "hats": [
+                "34a8c04e-a838-4a46-abf4-4ccd1968d6e6",
+                "650a7c8f-80ac-4a1a-9212-fb004a862ff7",
+                "3063c83b-485f-4120-8109-cda6fc9a10fa",
+                "88c24271-fa5d-4452-b541-a1b5941dab2b"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c86eb6a135fceb6997",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c86eb6a135fceb6998",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c86eb6a135fceb6999",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "79393483-8e59-4854-a255-ca5be96ea3ec",
+            "email": "Tracey.Lemke79@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "6401e371-7e8c-4cc2-be16-45ec48d6bcf9",
+                "47d02f8f-b67d-4256-a402-2e045e0e1d65"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c86eb6a135fceb699a",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c86eb6a135fceb699b",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c86eb6a135fceb699c",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "b640b0f7-c581-4e70-a775-1ae771c2c51b",
+            "email": "Devonte52@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "adbb7f0e-6ea6-44a0-9d68-4f6dd9a33180",
+                "bd5a9e1e-7769-4404-b6cb-f46acbb6c437",
+                "a2be44ed-0fba-4131-94f8-fbd7bf8889a9",
+                "1db0529c-6f55-424e-ab47-0ac350e53f4f"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c86eb6a135fceb699d",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c86eb6a135fceb699e",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c86eb6a135fceb699f",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "b0934d4c-de57-4ddc-8056-4cf5c9f4b8d1",
+            "email": "Scot12@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "b476822a-e6dd-40da-91cd-f9a3c5903134",
+                "0cd3468c-d5b5-4935-8378-2f365de079cf",
+                "be1c56c2-ac3d-4427-8a5e-891802cd5fa9",
+                "376673d1-0d30-4a9f-8f1b-253212d692dd"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80c86eb6a135fceb69a0",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c86eb6a135fceb69a1",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80c86eb6a135fceb69a2",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "b8d95bb7-4413-4c39-a72a-94f0da3ba5d3",
+            "email": "Melba.Schoen@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.536Z",
+            "updatedAt": "2019-02-04T20:56:25.536Z"
         },
         {
             "hats": [],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f3",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c96eb6a135fceb69a3",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f4",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69a4",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f5",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69a5",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef310",
-            "email": "Jadon84@yahoo.com"
+            "_id": "4efe5d92-9953-434b-b1fe-83b44d27fb44",
+            "email": "Alayna36@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef311"
+                "6d0ac158-cb84-4c39-8b15-61b3c7f28fe7",
+                "7b4b87a6-ffc7-41e3-aa60-83d44ce0dc7e",
+                "48c56813-b1c0-40e8-8a1b-83eb232025e8"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f6",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c96eb6a135fceb69a6",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f7",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69a7",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f8",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69a8",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef312",
-            "email": "Hettie30@yahoo.com"
+            "_id": "7197d75e-4b5b-4f4d-a986-06d01d1f9255",
+            "email": "Davion.Leannon28@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef313",
-                "5c5b7f3deae1cb6c280ef314",
-                "5c5b7f3deae1cb6c280ef315",
-                "5c5b7f3deae1cb6c280ef316",
-                "5c5b7f3deae1cb6c280ef317",
-                "5c5b7f3deae1cb6c280ef318",
-                "5c5b7f3deae1cb6c280ef319",
-                "5c5b7f3deae1cb6c280ef31a",
-                "5c5b7f3deae1cb6c280ef31b",
-                "5c5b7f3deae1cb6c280ef31c"
+                "1e68b8a0-0ac8-456c-aff5-63d23155f8c1",
+                "99230aee-3144-454f-b9bb-d523b3046e99"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4f9",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c96eb6a135fceb69a9",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4fa",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69aa",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef4fb",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69ab",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef31d",
-            "email": "Eloy76@hotmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef31e"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4fc",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4fd",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4fe",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef31f",
-            "email": "Effie_Gorczany@gmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef320",
-                "5c5b7f3deae1cb6c280ef321",
-                "5c5b7f3deae1cb6c280ef322",
-                "5c5b7f3deae1cb6c280ef323",
-                "5c5b7f3deae1cb6c280ef324",
-                "5c5b7f3deae1cb6c280ef325",
-                "5c5b7f3deae1cb6c280ef326",
-                "5c5b7f3deae1cb6c280ef327",
-                "5c5b7f3deae1cb6c280ef328"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef4ff",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef500",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef501",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef329",
-            "email": "Jessy41@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef32a",
-                "5c5b7f3deae1cb6c280ef32b",
-                "5c5b7f3deae1cb6c280ef32c",
-                "5c5b7f3deae1cb6c280ef32d"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef502",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef503",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef504",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef32e",
-            "email": "Icie_Ullrich51@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef32f",
-                "5c5b7f3deae1cb6c280ef330"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef505",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef506",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef507",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef331",
-            "email": "Cathrine_Weissnat@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef332",
-                "5c5b7f3deae1cb6c280ef333",
-                "5c5b7f3deae1cb6c280ef334",
-                "5c5b7f3deae1cb6c280ef335",
-                "5c5b7f3deae1cb6c280ef336",
-                "5c5b7f3deae1cb6c280ef337"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef508",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef509",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef50a",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef338",
-            "email": "Lavon.Morar15@hotmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef339",
-                "5c5b7f3deae1cb6c280ef33a",
-                "5c5b7f3deae1cb6c280ef33b",
-                "5c5b7f3deae1cb6c280ef33c",
-                "5c5b7f3deae1cb6c280ef33d",
-                "5c5b7f3deae1cb6c280ef33e",
-                "5c5b7f3deae1cb6c280ef33f",
-                "5c5b7f3deae1cb6c280ef340"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef50b",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef50c",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef50d",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef341",
-            "email": "Russel.Nolan@gmail.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef342",
-                "5c5b7f3deae1cb6c280ef343",
-                "5c5b7f3deae1cb6c280ef344",
-                "5c5b7f3deae1cb6c280ef345",
-                "5c5b7f3deae1cb6c280ef346",
-                "5c5b7f3deae1cb6c280ef347",
-                "5c5b7f3deae1cb6c280ef348",
-                "5c5b7f3deae1cb6c280ef349",
-                "5c5b7f3deae1cb6c280ef34a",
-                "5c5b7f3deae1cb6c280ef34b"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef50e",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef50f",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef510",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef34c",
-            "email": "Sydnie.Effertz@yahoo.com"
-        },
-        {
-            "hats": [
-                "5c5b7f3deae1cb6c280ef34d",
-                "5c5b7f3deae1cb6c280ef34e",
-                "5c5b7f3deae1cb6c280ef34f",
-                "5c5b7f3deae1cb6c280ef350",
-                "5c5b7f3deae1cb6c280ef351",
-                "5c5b7f3deae1cb6c280ef352",
-                "5c5b7f3deae1cb6c280ef353",
-                "5c5b7f3deae1cb6c280ef354",
-                "5c5b7f3deae1cb6c280ef355"
-            ],
-            "recommendedHats": [
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef511",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef512",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
-                },
-                {
-                    "_id": "5c5b7f3eeae1cb6c280ef513",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
-                }
-            ],
-            "_id": "5c5b7f3deae1cb6c280ef356",
-            "email": "Leora.Leffler1@yahoo.com"
+            "_id": "4df1b625-bdba-439e-9b30-f271250fd57e",
+            "email": "Kiel_Hodkiewicz96@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
         },
         {
             "hats": [],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef514",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c96eb6a135fceb69ac",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef515",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69ad",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef516",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69ae",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef357",
-            "email": "Kasey_Toy@yahoo.com"
+            "_id": "ab35f836-5460-408c-80d8-53f61885c324",
+            "email": "Dolores69@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.536Z",
+            "updatedAt": "2019-02-04T20:56:25.536Z"
         },
         {
             "hats": [
-                "5c5b7f3deae1cb6c280ef358",
-                "5c5b7f3deae1cb6c280ef359",
-                "5c5b7f3deae1cb6c280ef35a",
-                "5c5b7f3deae1cb6c280ef35b",
-                "5c5b7f3deae1cb6c280ef35c",
-                "5c5b7f3deae1cb6c280ef35d",
-                "5c5b7f3deae1cb6c280ef35e",
-                "5c5b7f3deae1cb6c280ef35f"
+                "6266b61c-6f83-4720-b855-4abc0fa1c6db"
             ],
             "recommendedHats": [
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef517",
-                    "name": "Gorgeous Steel Soap",
-                    "price": 1000,
-                    "material": "Concrete"
+                    "_id": "5c5b80c96eb6a135fceb69af",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef518",
-                    "name": "Handmade Plastic Shoes",
-                    "price": 998,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69b0",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
                 },
                 {
-                    "_id": "5c5b7f3eeae1cb6c280ef519",
-                    "name": "Refined Metal Towels",
-                    "price": 996,
-                    "material": "Fresh"
+                    "_id": "5c5b80c96eb6a135fceb69b1",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
                 }
             ],
-            "_id": "5c5b7f3deae1cb6c280ef360",
-            "email": "Thelma.Murazik41@gmail.com"
+            "_id": "727b5f07-fd96-4663-aedb-429032344cdc",
+            "email": "Peter77@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "2d034079-c704-4d0e-b3a7-d14215b7423a",
+                "33ac42ed-9cf0-40e2-b8ec-00700f5e6bfc",
+                "7ff0752b-9049-4a57-92eb-3a25782e1c50",
+                "3659e25b-0271-4d6a-b6a1-830127832099"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69b2",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69b3",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69b4",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "246874c7-e20d-4da9-bd46-ef198bae2e22",
+            "email": "Austin_Ferry24@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "3d9e26b3-a72d-4350-92bd-8348ef265c89",
+                "e3708da9-d233-4a5d-af57-cd0ba67f6e7d",
+                "affede1f-31b1-4ecc-ae7c-adbfa5ac538a",
+                "56a548d1-7f8b-4635-8b50-be4e568b8903",
+                "4db2e274-d3ee-48d8-904d-fedb2973e8a5"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69b5",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69b6",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69b7",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "5022d4d2-0d43-4688-aae5-8925757ab5bc",
+            "email": "Mylene_Moore28@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "6faca85b-714b-49a3-938f-79479e80cbd2",
+                "8e43f097-8239-4ee4-9818-716228afa916",
+                "334eb5c7-954f-460c-88cc-4aff881f7b32",
+                "f67a23d1-c1b8-4298-8ef4-16b744fe1e3a",
+                "69952fc6-b66e-409a-a530-2ce97711edce"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69b8",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69b9",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69ba",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "19ff6efe-07af-4296-b421-81aa5483e984",
+            "email": "Jude_King55@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.536Z",
+            "updatedAt": "2019-02-04T20:56:25.536Z"
+        },
+        {
+            "hats": [
+                "006e5819-0602-40d4-986e-cddec3c09f2e",
+                "fa480152-a358-44fb-985c-555ac747f25d",
+                "01f8d716-dead-4562-8bb8-ab0627bc1845"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69bb",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69bc",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69bd",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "d1d3b02c-7ebe-465e-9211-c122be5801e1",
+            "email": "Marlen_Ernser@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "9d6a2068-94e3-422c-9194-bcd7e8ddcb2a"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69be",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69bf",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80ca6eb6a135fceb69c0",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "d801fbc2-3eaf-4a91-8ab8-bbe38b40105a",
+            "email": "Alva_Stracke28@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "7ff4cac7-19c6-4ea7-b360-38193c29a8c3",
+                "489a1146-66e2-411f-8234-e783cd256795"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c1",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c2",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c3",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                }
+            ],
+            "_id": "26e4099b-182d-484a-a4f1-22e45e5431a3",
+            "email": "Annabell.Labadie@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "e980e080-ae95-431f-a7de-53b49906bb56",
+                "2d0ebd47-7b7f-4222-b048-f18e817ac70e",
+                "903629ec-1d16-4af7-b3d6-9b4623094a27",
+                "408d66ba-645c-46b5-968e-9f157c64a28b",
+                "80cf8ddc-30ba-459b-a23d-18c5df606a2c"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c4",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c5",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c6",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                }
+            ],
+            "_id": "139b3a58-6e4f-4e3e-8d6f-09f3af3d7f0b",
+            "email": "Sonya_Wunsch51@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.536Z",
+            "updatedAt": "2019-02-04T20:56:25.536Z"
+        },
+        {
+            "hats": [
+                "5c067e49-5504-43cd-969a-93be80c3fb8d"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c7",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c8",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69c9",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "7ccfec43-a38d-4323-b2b1-3752a153ce78",
+            "email": "Marilie_Dibbert@hotmail.com",
+            "createdAt": "2019-02-04T20:56:25.536Z",
+            "updatedAt": "2019-02-04T20:56:25.536Z"
+        },
+        {
+            "hats": [
+                "21b6a73a-a02f-4984-94a5-02ea884cf33e",
+                "ffb41d34-65b5-48fa-a6b9-f9aa19f175ee",
+                "620b37fc-47f4-49dc-bccf-558717be2b8b",
+                "f5523a14-7fb6-4d5c-ade0-d4546a9ecb04"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69ca",
+                    "name": "Practical Granite Pants",
+                    "material": "Granite",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69cb",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cb6eb6a135fceb69cc",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                }
+            ],
+            "_id": "b6309dc4-b34f-47ba-ab09-3916e9cd6b27",
+            "email": "Raphael_Casper75@yahoo.com",
+            "createdAt": "2019-02-04T20:56:25.536Z",
+            "updatedAt": "2019-02-04T20:56:25.536Z"
+        },
+        {
+            "hats": [],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80cc6eb6a135fceb69cd",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cc6eb6a135fceb69ce",
+                    "name": "Fantastic Metal Tuna",
+                    "material": "Metal",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cc6eb6a135fceb69cf",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "7f22feb3-8e01-44cb-a9d9-d149bfd4c2bc",
+            "email": "Nestor.Hintz@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.535Z",
+            "updatedAt": "2019-02-04T20:56:25.535Z"
+        },
+        {
+            "hats": [
+                "075db635-d5cf-4127-a23e-86fbb9b8fb26",
+                "6266b61c-6f83-4720-b855-4abc0fa1c6db",
+                "4c9d86e9-417d-4ed5-9e28-705c99dd51f7"
+            ],
+            "recommendedHats": [
+                {
+                    "_id": "5c5b80cc6eb6a135fceb69d0",
+                    "name": "Fantastic Steel Car",
+                    "material": "Plastic",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cc6eb6a135fceb69d1",
+                    "name": "Licensed Fresh Fish",
+                    "material": "Steel",
+                    "price": 1000
+                },
+                {
+                    "_id": "5c5b80cc6eb6a135fceb69d2",
+                    "name": "Gorgeous Soft Soap",
+                    "material": "Metal",
+                    "price": 1000
+                }
+            ],
+            "_id": "2e9d8667-bab2-47c9-9acf-4d3d636db13b",
+            "email": "Bradly_Kessler@gmail.com",
+            "createdAt": "2019-02-04T20:56:25.536Z",
+            "updatedAt": "2019-02-04T20:56:25.536Z"
         }
     ],
-    "totalPages": 3
+    "totalPages": 10
 }
